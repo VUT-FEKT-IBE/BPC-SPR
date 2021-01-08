@@ -4,6 +4,7 @@ Otázky a odpovědi na SW právo.
 
 ### Jaká práva má autor počítačového programu a jak jsou tato autorská práva omezena? Jaké jsou varianty výkonu v těchto práv v závislosti na způsobu vzniku počítačového programu (školní dílo, zaměstnanecké dílo, spoluautorské dílo)?
 
+
 ### Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?
 
 ### Jak mohou být právem chráněna rozhraní (datová, uživatelská, aplikační)? Je právem chráněna funkcionalita software?
@@ -19,6 +20,31 @@ Otázky a odpovědi na SW právo.
 ### Co je to smlouva o dílo? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k vývoji software.
 
 ### Co je to SLA? Vyjmenujte náležitosti a popište účel uzavření SLA.
+
+SLA - service level agreement je tzv. inominátní smlouva, která upravuje úroveň poskytovaní určité služby. Předmětem můžou být služby jako podpora, údržba a podobné spojedné s dodávkou SW, služby v oblasti cloud computingu nebo služby v oblasti telekomunikací. Často není úzavíraná samostatně, ale je spíše doplňujicí smlouva.
+Typické prvky:
++ Vymezení samostatné služby, tedy její definice
+  + podpora SW
+  + odstrańovaní vad
+  + PC program poskytovaný jako služba
++ Parametry služby a způsob vyhodnocení - důležité preciznost jejich vymezení.
+  + Z pohledu parametrů je důležité přesně vymezit, kdy se využijí (vyjímka z dostupnosti pro plánované odstávce).
+    + dostupnost
+    + reakční doba
+    + doba do odstranění závad
+  + Z pohledu vyhodnocení je důležité jak bude provedeno
+    + období
+      - rok
+      - měsíc
+      - týden
+      - apod
+    + jaký mechanismus
+      - jak bude měřena dostupnost služby
++ kreditace - klíčový prvek, forma sankce za nedodržení úrovně služby
+  + podoba
+    + sleva z ceny
+    + smluvní pokuta - může překročit smluvní částku za službu narozdíl od slevy
+    + případně délku budoucího období poskytnutí služby zdarma tzv free service days
 
 ### Jaký je rozdíl mezi zárukou a odpovědností za vady a jak se tyto typicky uplatňují u software?
 
