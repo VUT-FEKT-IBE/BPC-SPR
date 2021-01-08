@@ -22,7 +22,7 @@ Vyloučení z ochrany jsou "myšlenky a principy na nichž je založen jakýkoli
 
 Zaměstnanecké dílo (autorský zýkon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajícíh z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonával k takovému programu svým jménem a na svůj účet autorova majetková práva. Pokud není dohoda odlišná tak zaměstanec současně uděluju zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
   + spojovat s jinýmy programy
-  + dale je měnit 
+  + dále je měnit 
   + uvádět je na trh
   + vše víše bez zvláštního souhlasu zaměstnance
   
@@ -60,6 +60,37 @@ Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí spl�
 ### Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?
 
 ### Co je to licenční smlouva? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k distribuci software.
+
+Licenční smlouva je smlouva na jejíž základě poskytovatel, poskytuje oprávnění k užítí všech nebo jednotlivých způsobů užití. Nabyvatel se zavazuje, není-li sjednáno jinak, poskytnout odměnu. 
+Licenční smlouva nemusí být v písemné formě. Lze ji uzavřít například ústně. Musí být uzavřena písemně pouze v případech kdy je poskytována jako výhradní. Výhradní licence autor nesmí poskytnou licenci třetí osobě a je obvykle povinen nepoužívat SW, ke kterému licenci udělil. V případě nevýhradní licence může autor použivat SW způsobem, k obsahu licence a poskytnout licence dalším osobám. 
+Elektronické uzavíraní"
++ Click-wrap
+  + Potvrzení před prvním užitím
++ Shrink-wrap
+  + Rozbalení krabicového SW
++ Browse-wrap
+  + Souhlas před stažením SW
+  
+Obsah licence: 
++ Základní
+  + Smluvní strany
+  + Specifikace autorského díla
+    + předmět
+    - není nutno popisovat funkcionalitu
+  + Právo a způsob užití
+  + Rozsah licence
+  + Odměna za poskytnutí licence
+  + Přiměřená dodatečná odměna
+  + Délka trvaní licence
++ Ostatní
+  + Právo podlicencovaní, či přeprodaní
+  + Odpovědnost za škodu a právní vady SW
+  + Oprávnění k rozmnožovaní nebo úpravě SW
+  + Nárok na upgrade SW
+  + Způsob zániku licence a postupu po zániku
+  + Automatické prodlužovaní licence
+  
+Hlavním účelem je ochrana díla a specifikace jak s ním lze nakládat. Například jestli lze upravovat nebo předělávat SW. Nebo ho rozmnožovat popřípadě upravenou verzi licencovat. 
 
 ### Co je to smlouva o dílo? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k vývoji software.
 
