@@ -63,6 +63,19 @@ Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí spl�
 
 ### Co je to smlouva o dílo? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k vývoji software.
 
+Obsah smlouvy o dílo:
+ + Zhotovitel a zadavatel/objednatel
+ + Předmět smlouvy - co chce
+ + Cena
+ + Termín zhotovení - do kdy + a co bude předáno
+ + Předání a převzetí díla detailnější specifikace
+ + Odpovědnost za vady
+ + Závěrečné ustanovení
+ 
+Je to smlouva na jejímž základě vzniká závazek, jehož předmětem je shotovení, údržba, oprava nebo úprava věci nebo činosti. Většinou se sepisuje pokud je činost financovaná zákazníkem a produkt v našem případě SW je vytvářen dle požadavků zákazníka. Často se pojí se SW na zakázku.\
+Klíčovím ujednáním je specifikace předmetu plnění neboli SW. Oproti specifikaci standardního SW musí být míra specifikace o hodně rozsáhlejší a detailnější. Toto musí proběhnout, aby se předešlo sporům. Proto by specifikace neměla pokrývat pouze funkcionalitu ale také parametry, které nejsou přímo spojené s funkcionalitou ale mohou ji zásadně ovlivnit. Například HW nároky.\
+Účelem uzavření licence by měla být nejen schopnost ho použivat ale i různě s ním manipulovat. Například nemežnost přeprodávat nebo poskytovat SW třetí straně. Zde se aplikuje občanský zákoník, kde má zákazník licenci možnost použivat licenci pouze za účelem sjednáneho ve smlouvě. Proto se často sjednává širší opravnění zákazníka/široká licence. Takže účel uzavření licenční smlouvy je za účelem využití daného SW, kde je specifikováno co vše s tím SW lze dělat. Například přeprodej třetím stranám, neomezené množství vlastních licencí na neomezenou dobu, nebo bránit dodavateli aby program sám užíval nebo prodával licenci jiným osobám, popřípadě právo měnit a upravovat dodaný SW. Dále lze sjednat přístup ke zdrojovým kódum + ošetřit její kvalitu (komentáře, dokumentace, atd.).
+
 ### Co je to SLA? Vyjmenujte náležitosti a popište účel uzavření SLA.
 
 SLA - service level agreement je tzv. inominátní smlouva, která upravuje úroveň poskytovaní určité služby. Předmětem můžou být služby jako podpora, údržba a podobné spojedné s dodávkou SW, služby v oblasti cloud computingu nebo služby v oblasti telekomunikací. Často není úzavíraná samostatně, ale je spíše doplňujicí smlouva.
