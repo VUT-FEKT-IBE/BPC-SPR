@@ -34,9 +34,9 @@ Dekompilace programu, není povolena v každém případě, lze provádět pouze
 
 ### Jak mohou být právem chráněna rozhraní (datová, uživatelská, aplikační)? Je právem chráněna funkcionalita software?
 
-Je uvedeno že myšlenky a principy na nichž je založen prvek programu nejsou chráněny autorským zákonem. SW směrnice - myšlenky a zásady na ketrých je založen kterýkoliv prvek programu, nebo jeho rozhraní, nejsou chráněny. 
+Je uvedeno že myšlenky a principy na nichž je založen prvek programu nejsou chráněny autorským zákonem. SW směrnice - myšlenky a zásady na kterých je založen kterýkoliv prvek programu, nebo jeho rozhraní, nejsou chráněny. 
 
-Datová - 
+Datová - jedná se o rozhraní, která slouží k ukládaní a přenosu dat v určitém formátu. Dle SW směrnice tyto rozhraní nebudou chráněna. Lze uvažovat, kdyby to bylo dílo dá se uvažovat o standardní ochraně.
 
 Uživatelská - Pokud by bylo GUI zcela převzato, mohla by být zasaženo do autorských práv ke GUI jako samostatnému autorskému dílu, nepodlehajícímu zvlašnímu režimu ochrany (viz právo prvák letní), neboli čistě GUI není chráněno až na nějaké vyjímky například. Aby bylo chráněno musí dosáhnout tvůrčího standardu.
 
