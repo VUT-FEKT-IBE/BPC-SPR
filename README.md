@@ -17,7 +17,6 @@ Ochrana pokrývá vyjádření ve formě:
     + apod.
 Vyloučení z ochrany jsou "myšlenky a principy na nichž je založen jakýkoliv prvek PC programu, včetně těch, které jsou podkladem jeho propojení s jíným programem". Neboli není chráněna funkcionalita programu, ale pouze její objektivní vyjádření v podobě příslušného kódu.
 
-Pokud by bylo GUI zcela převzato, mohla by být zasaženo do autorských práv ke GUI jako samostatnému autorskému dílu, nepodlehajícímu zvlašnímu režimu ochrany (viz právo prvák letní), neboli čistě GUI není chráněno až na nějaké vyjímky.
 
 Školní dílo (autorský zýkon §60) - škola mají za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod měl by autor udělit licenci nebo bude udělena soudem.
 
@@ -31,7 +30,17 @@ Spoluautorské/kolektivní dílo (autorský zýkon §59) je dílo, na kterém se
 
 ### Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?
 
+Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout inteoperability nexestuje alespon ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegalní držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
+
 ### Jak mohou být právem chráněna rozhraní (datová, uživatelská, aplikační)? Je právem chráněna funkcionalita software?
+
+Je uvedeno že myšlenky a principy na nichž je založen prvek programu nejsou chráněny autorským zákonem. SW směrnice - myšlenky a zásady na ketrých je založen kterýkoliv prvek programu, nebo jeho rozhraní, nejsou chráněny. 
+
+Datová - 
+
+Uživatelská - Pokud by bylo GUI zcela převzato, mohla by být zasaženo do autorských práv ke GUI jako samostatnému autorskému dílu, nepodlehajícímu zvlašnímu režimu ochrany (viz právo prvák letní), neboli čistě GUI není chráněno až na nějaké vyjímky například. Aby bylo chráněno musí dosáhnout tvůrčího standardu.
+
+Aplikační - Buď je nebo není chráněno autorským zákonem, že nikde není specifikováno jestli se jedná o myšlenku nebo vyjádření. SDEU neřešil ale lze předpokládat, že by to bylo podobné jako z GUI. Pokud by se jednoalo o vyjádření tak je chráněno. Momentálně Google vs Oracle, o kterém by měl soud rozhodnout v 2021. Google pro Android využil stejné API jako je v javě. V prvním řešení bylo rozhodnuto že API není chráněno. Poté odvolací soud rozhodl že API je chráněno, že byla splněna podmínka originality. Momentálně je případ u nejvyšího soudu USA.
 
 ### Jaké jsou základní rozdíly mezi autorskoprávní a patentovou ochranou? Lze chránit v ČR software jako takový? Jaké jsou podmínky patentovatelnosti vynálezu realizovaného počítačem (computer implemented invention)?
 
