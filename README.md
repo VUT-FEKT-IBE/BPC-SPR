@@ -148,6 +148,17 @@ Obecně se lze domáhat buď opravi chyby pokuď je to možné nebo přiměřen�
 
 ### Co je podstatou softwarových veřejných licencí a jak tyto fungují po právní stránce? Kdy zvolíte jakou veřejnou softwarovou licenci a proč?
 
+Veřejná licence je specifickým způsobem sjednaná licenční smlouva. SW licencovaný pod veřejnou licencý je vetšinou poskytován bez úplaty. Tímto způsobem se lze zbavit odpovědnosti za chyby v programu, které nezpůsobují právní vady. Obsahuje podmínku uvedení autora. 
+
+Podstatou veřejné licence je zveřejnění díla s licenčními podmínkami, odkazem na ně. Kde nabyvatel licecne není v přímém kontaktu s poskytovatelem. A využívá se hlavně v situaci kdy licenci chceme směřovat na neurčitý počet osob.
+"Veřejné licence jsou veřejné návrhy k uzavření licenčních smluv, jejichž obsah je standardizován a vymezen odkazem na veřejně známe a dostupné licenční podmíny a určen neurčitému počtu osob."
+
+Nejčastěji se veřejných licencí využívá v OSS. Typy licencí jsou silně copyleftové, slabě copyleftové a necopyleftové.\
+Silně copyleftové nesou omezení při zpracovaní a šíření SW. Požadují aby původní nebo nový program, který obsahuje původní byl šířen pod původními licenčními podmínkamy a současně garantují tvůrci přístup ke zdrojovému kódu. Zástupci jsou GNU GPL v2 a v3\
+Slabě copyleftové vyžadují šíření odvozených programů pod stejnými licenčními podmínkami a zpřístupnění jejich zdrojových kódů. Umožnují vytvaření programů, které jsou propojené a šířené společně s původním programem aniž by měnily či použivaly jeho zdrojový kód a tyto programy šířit pod libovolnou licencí. Nejčastěji to jsou standardní knihovny. Nemusí se vydat zdrojové kódy vlastního kódu ale pouze musí uvést a zpřístupnit původní část programu pod původní licencí. Zástupci MPL (Mozila Public License) v 1.1 a  LGPL (Lesser General Public License) v2.1.\
+Necopuleftové licence neobsahují žádnou nebo velmi omezenou copuleftovou doložku. Ukládají pouze minimální omezení k dalšímu šíření. Proto lze použít i při vývoji SW s neveřejným zdrojovým kódem anyž by bylo porušeno původních podmínek. Zástupci Apache 2.0, BSD a MIT.\
+Lze měnit licence směrem od nejslabší po nejsilnější ale ne naopak. Další často používanou licencí je Creativ Commons.
+
 ### Definujte správce osobních údajů a popište jeho základní povinnosti dle GDPR. Jaký rozdíl mezi správcem a zpracovatelem osobních údajů?
 
 ### Jakými prostředky a čeho se může domáhat autor software při zásahu do jeho autorských práv?
