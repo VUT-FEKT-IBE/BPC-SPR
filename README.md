@@ -136,6 +136,16 @@ Typické prvky:
 
 ### Jaký je rozdíl mezi zárukou a odpovědností za vady a jak se tyto typicky uplatňují u software?
 
+Záruka - je dobrovolné prohlašení prodávajícího ohledně jakosti jím prodávaného zboží. Při poskytnutí se prodávajicí zavazuje, že věc bude funkční pro obvyklé použití nebo si zachová její vlastnosti. Stačí pokud je uvedeno na obalu, v reklamě, letáku. Záruku lze poskytnout jen na část věci.
+
+Odpovědnost - Dopadá na prodavajícího ze zákona. Její trvaní je po dobu dvou let. Kupujicí uplatňuje právo z vady. Jeli na obalu, návodu, reklamě uvedena doba, po kterou lze věc použít, použivá se ustanovení o záruce za jakost. Víše zmíněné neplatí v případě pokuď se prodavá daná věc už z určitou vadou a její cena je snížena, na opotřebení běžným způsobem, u použité věci odpovídající míře použivaní nebo opotřebení, kterou věc měla při převzetí nebo nevyplívá-li to z povahy věci.
+
+U SW se zodpovidá za vady,  tyto vady dělíme na faktické a právní. Faktické vady jsou nevhodné či nedostatečné funkcionality SW může souviset jak z bugy tak nevhodnou implementací, nekompatibilitě nebo například taky bezpečnostní chyby/ nedostatečná bezpečnost SW. Právní vady spočívají zatížením SW nárokem jiné osoby v rozporu se smlouvou, na základě byl SW pořízen. 
+
+Obecně se na SW vztahuje režim odpovědnosti za vady. Z toho vyplivá, že by dodavaný SW měl být bez chyb. Do chyb se počítá odchýlení od sjednaných vlatností a nevhodnost k výslovně stanovenému účelu. Na bezúplatný SW se odpovědnost za vady nevztahuje (Opensource). 
+
+Obecně se lze domáhat buď opravi chyby pokuď je to možné nebo přiměřené slevy z ceny. Pokuď není možné vadu odstranit lze odstoupit od smlouvy nebo požadovat snížení ceny. 
+
 ### Co je podstatou softwarových veřejných licencí a jak tyto fungují po právní stránce? Kdy zvolíte jakou veřejnou softwarovou licenci a proč?
 
 ### Definujte správce osobních údajů a popište jeho základní povinnosti dle GDPR. Jaký rozdíl mezi správcem a zpracovatelem osobních údajů?
