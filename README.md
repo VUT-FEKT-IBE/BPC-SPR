@@ -208,3 +208,12 @@ Specifickým nárokem je uveřejněný omluvy. V rámci kompenzace se řeší ú
 Správněprávní rovina - řeší se pomocí Úřadu obce s rozšířenou působnosté - přestupky. Přestupek vs trestný čin - mírnější trestu a můžou trestat větší okruh jednaní může tam být nedbalost. Trestný čin spáchán pouze úmyslně. Ochrana spotřebitele - neřeší se kompenzace vetšinou se jenom trestá. Padělek - ochrané známky, nedovolená napodobenina - autorské právo a průmyslové vzory. SW vypálen na černo spadá do nedovolené napodobeniny.
 
 Trestněprávní rovina - mělo by to být poslední řešení ne přeskakovat před nižšíma. Řešit důležité věci. U autorského práva nění potřeba minimalní škoda a řeší ho §270. 
+
+
+__________________________________________________________________________________________________________________________________________
+
+Odpovědi a otázky jsou použity pro studíjní účely\
+Zdroje:
++ Právo informačních technologií ISBN 978-80-7598-045-8
++ BP [Limity autorskoprávní ochrany počítačových programů](https://is.muni.cz/th/p7o93/DP_final.pdf)
++ dále zápisky z přednášek BPC-SPR
