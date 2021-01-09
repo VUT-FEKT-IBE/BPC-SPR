@@ -62,6 +62,18 @@ Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí spl�
 
 ### Jak lze chránit v ČR databáze? Jak Soudní dvůr Evropské unie vykládá pojem "podstatný vklad do pořízení, ověření nebo předvedení obsahu databáze" ve vztahu k přiznání ochrany zvláštním právem pořizovatele databáze?
 
+Databázi lze definovat jako "vnitřně organizované soubory informací, údajů, dat, tedy soubory poznatků o jakýchkoliv skutečnostech".\
+Databáze podle §88 - soubor nezávislých děl, údajů, nebo jiných prvků systematicky nebo metodicky uspořádaných a individuálně přístupných elektronickými nebo jinými prostředky, bez ohledu na formu jejich vyjdření.\
+V ČR lze databáze chránit dvěmi způsoby a to pomocí autorského zákona a ochranu právem sui generis - zvláštní právo zřizovatele.\
+Z pohledu autorského zákona prvně databáze ovlivnila Bernská úmluva, a poté TRIPS (specifikuje že chrání způsobem výběru či usporádáním originální soubory libovoných materiálů a dat) na kterou navázala WCT, která řeší vše až na problematiku dočasné technické rozmnoženiny. Autorským zákonem je chráněna struktůra databáze a ne její obsah.\
+Autorem databáze může být pouze FO nebo skupina takových osob, ale také pokuď to umožněju přávní řád tak PO.\
+Ochrana zvláštním právem pořizovatele databáze. Pořizovatelem databáze je osoba, která na svou odpovědnost databázi pořídí nebo osoba, pro kterou z jejího podnětu učiní jiná osoba. Pořizovatel databáze má provo na vytěžování nebo zužitkovaní celého obsahu databáze nebo její kvalitativně nebo kvantitavní části a udělit oprávnění k tomuto i jiné osobě. Vytěžovaním se rozumí trvalé přenesení jejího obsahu na jiný nosič. Na elektro databáze se nevztahuje vyjímka pro osobní použití. Co se týká vytěžení jen části datábáze záleží jestli se jedná o podstatnou nebo nepodstatnou část. Jelikož nepodstatnou část lze vytěžit a zužitkovat jak dle směrnice tak i dle autorského zákona.
+
+SDEU si vykládá, že i zásádní údaje, při posuzovaní zda se jedná o vytěžovaní podstatné či nepodstatné části aktuální hodnota údajů není relevantní. Rozhodné je jaké finanční prostředky či úsilí bylo vloženo pořízení, ověření nebo převeden obsahu této části a nikoliv jaká je cenová hodnota těchto dat v době jejich vytěžení či zužitkování.
+Také vyjádřil že co nepředstavuje podstatnou část tak představuje podstatnou. Platí to do chvýle než je databáze vytěžována systematicky.
+
+Soudní dvůr EU si to vykladá jako
+
 ### Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?
 
 Momentálně dle autorského zákona může být autorem pouze FO takže pokud SW vytvoří SW tak danný SW není autorem nového SW. Pokud je při vývoji SW vysoká účast člověka tak se to bere jako výsledek lidské činosti a AI je použito jako pomocník při vývoji. Takže při tomto je SW chráněn autorským právem. Při nízké účasti člověka záleží na případ od případu není to jednoznačné. Porovnávají se tam prvky objektivní vnímatelnosti, tvůrčí svobody, možnosti vyjádření apod. Obecně AI jejich výtvorů není definována. Rozlišujeme dva druhy AI - silná, slabá. Slabá AI - funguje bez black-boxu neboli dokáži predikovat výstup a vím jak to funguje na pozadí. Silná AI - funguje na základě black-boxu takže nevím jak funguje na pozadí. U slabé je vlastníkem licence autor AI, zatímco při silné AI se žádný případ neřešil ani není stanovené nějaké právo takže se momentálně nedá jednoznačně říci.
@@ -229,4 +241,5 @@ Odpovědi a otázky jsou použity pro studíjní účely\
 Zdroje:
 + Právo informačních technologií ISBN 978-80-7598-045-8
 + BP [Limity autorskoprávní ochrany počítačových programů](https://is.muni.cz/th/p7o93/DP_final.pdf)
++ DP [Vybrané aspekty právní ochrany databází](https://is.muni.cz/th/xj3lq/Vybrane_aspekty_pravni_ochrany_databazi.pdf)
 + dále zápisky z přednášek BPC-SPR
