@@ -161,4 +161,30 @@ Lze měnit licence směrem od nejslabší po nejsilnější ale ne naopak. Dalš
 
 ### Definujte správce osobních údajů a popište jeho základní povinnosti dle GDPR. Jaký rozdíl mezi správcem a zpracovatelem osobních údajů?
 
+Správce stanovuje účel zpracovaní osobních údajů a po většinu chce zbírat osobní údaje neboli zbírá je za předem definovaným účelem. Lze mít více správců na jedny data ake jaždý odpovídá sám za sebe.\
+Zpracovatel je osoba/firma, která je najata správcem osobních údajů. Zpracovatel nemusí vždy existovat nebo může jich být více. Například je možné, že se osobní údaje nezpracovávají nebo si je správce zpracovává sám. Pokud zpracovatel začne rozhodovat o účelu dat sám tak se stává správcem.\
+Mezi těmito entitami musí při zpracovaní musí být vždy sepsána písemná smlouva.\
+Příklad máme firmu A která prodává zboží a bere si osobní údaje jako věk. Tato firma A se stává správcem. Firma A si řekně že chce zpracovat v jakém věku zákazníci nejčastěji nakupují určité položky. Firma to zadá nějaké firmě B nebo osobě, aby jí to zpracovala. Firma B se tím pádem stává zpracovatelem těchto osobních údajů.\
+
+Základní povinosti správce osobních údajů vyplívají z GDPR jsou:
++ Odpovědnost
+  + Za dodržovaní zásad zpracovaní
+  + Za dodržovaní poviností upravených nařízením
+  + Za zabezpečení údajů
++ Povinosti
+  + Aplikace standardní ochrany osbních údajů
+  + jmenovat pověřence pro ochranu osobních údajů
+  + Posuzovat vliv na ochranu osobnách údajů
+  + Ohlásit připady porušení zabezpečení osobních údajů jak úřadu tak postiženým osobám
+  + vést záznamy
+
+K zpracovaní osobních údajů je nutno uvést souhlas, kde by mělo být uvedeno co je zhromaždováno a za jakým účelem. Při potřebě můžu osoba o oteré jsou zhromáždovány osobní údaje požádat o vymazaní z databáze nebo jen přístup k nim. Jsou i vyjímky, kdy lze zpracovávat osobní údaje musí k nim ale existovat zákonný důvod.\
+Příklad vyjímek:
++ Plnění smlouvy
++ Plnění právní povinosti - uložení faktůru
++ Při výkonu veřejné moci
++ Ochrana životně důležitých zájmů subjektu údajů nebo jiné FO - lekař ukladá informace o lečbě
++ Plnění úkolu prováděného ve veřejném zájmu
++ Nezbytné pro účeli oprávněných zájmů příslušného správce - například půjčení peněz někomu 
+
 ### Jakými prostředky a čeho se může domáhat autor software při zásahu do jeho autorských práv?
