@@ -32,6 +32,10 @@ Spoluautorské/kolektivní dílo (autorský zýkon §59) je dílo, na kterém se
 
 Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout inteoperability nexestuje alespon ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegalní držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
 
+Oprávněný uživatel/nabyvatel - je problematická, opravněný uživatel může být buď na základě smlouvy nebo zákona §66. Řešil to jak nejvyšší soud ale i soudní dvůr EU, který stanovil, že se lze jednat i o jinou osobu než, z kterou to bylo uzavřeno (lze přeprodat licenci) ale původní uživatel musí odstranit SW ze svého pc a nepouživat jej. Nejvyší soud řešil poslané CD s licenčním klíčem.
+
+Třístupnový test - hledaní vyjímky, musí to být jen vyjímky stanovené v zákoně, aplikace vyjímek je dovolena jen pokud to není v rozporu z užitím díla a nejsou tím nepřiměřeně dotčeny oprávněné zájmy autora. I při dovoleném reverzním inženýrství můsíme projít tímto testem.
+
 ### Jak mohou být právem chráněna rozhraní (datová, uživatelská, aplikační)? Je právem chráněna funkcionalita software?
 
 Je uvedeno že myšlenky a principy na nichž je založen prvek programu nejsou chráněny autorským zákonem. SW směrnice - myšlenky a zásady na kterých je založen kterýkoliv prvek programu, nebo jeho rozhraní, nejsou chráněny. 
