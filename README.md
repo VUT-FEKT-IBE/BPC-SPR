@@ -73,8 +73,6 @@ Ochrana zvláštním právem pořizovatele databáze. Pořizovatelem databáze j
 SDEU si vykládá, že i zásádní údaje, při posuzovaní zda se jedná o vytěžovaní podstatné či nepodstatné části aktuální hodnota údajů není relevantní. Rozhodné je jaké finanční prostředky či úsilí bylo vloženo pořízení, ověření nebo převeden obsahu této části a nikoliv jaká je cenová hodnota těchto dat v době jejich vytěžení či zužitkování.
 Také vyjádřil že co nepředstavuje podstatnou část tak představuje podstatnou. Platí to do chvýle než je databáze vytěžována systematicky.
 
-Soudní dvůr EU si to vykladá jako
-
 ### Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?
 
 Momentálně dle autorského zákona může být autorem pouze FO takže pokud SW vytvoří SW tak danný SW není autorem nového SW. Pokud je při vývoji SW vysoká účast člověka tak se to bere jako výsledek lidské činosti a AI je použito jako pomocník při vývoji. Takže při tomto je SW chráněn autorským právem. Při nízké účasti člověka záleží na případ od případu není to jednoznačné. Porovnávají se tam prvky objektivní vnímatelnosti, tvůrčí svobody, možnosti vyjádření apod. Obecně AI jejich výtvorů není definována. Rozlišujeme dva druhy AI - silná, slabá. Slabá AI - funguje bez black-boxu neboli dokáži predikovat výstup a vím jak to funguje na pozadí. Silná AI - funguje na základě black-boxu takže nevím jak funguje na pozadí. U slabé je vlastníkem licence autor AI, zatímco při silné AI se žádný případ neřešil ani není stanovené nějaké právo takže se momentálně nedá jednoznačně říci.
