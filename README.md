@@ -55,6 +55,7 @@ Podmínky patentovatelnosti
   + novost - vynález se považuje za nový, není-li součástí stavu techniky
   + vynálezecká činost
   + průmyslová využitelnost - může li být vynález vyráběn nebo využíván ve všech odvětvých průmyslu
+  
 Obecně v ČR SW je chráněn pouze autorským zákonem pokud nespadá pod vynálezy uskutečnované počítačem ty lze chránit patenty.  
 Vynálezi uskutečnované počítačem jsou udělovány i v ČR. Do této dle zákona, nelze patentovat "plány, pravidla a způsob vykonávaní duševní šinnosti, hraní her nebo vykonávání obchodní činosti, jakož i programy počítačů".
 Do vynálezu realizovaného počítačem lze zahrnout počítačový program myšlený jako produkt. Podmínka je technický charakter příslušného vynálezu. Je dán jestliže je počítačový program schopný vyvolat dotatečný technický účinek, když beží na PC nebo je na něm nahrán. nesmí se jednat o běžnou interakci mezi SW a HW.  
