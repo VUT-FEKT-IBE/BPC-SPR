@@ -59,6 +59,14 @@ Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí spl�
 
 ### Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?
 
+Momentálně dle autorského zákona může být autorem pouze FO takže pokud SW vytvoří SW tak danný SW není autorem nového SW. Pokud je při vývoji SW vysoká účast člověka tak se to bere jako výsledek lidské činosti a AI je použito jako pomocník při vývoji. Takže při tomto je SW chráněn autorským právem. Při nízké účasti člověka záleží na případ od případu není to jednoznačné. Porovnávají se tam prvky objektivní vnímatelnosti, tvůrčí svobody, možnosti vyjádření apod. Obecně AI jejich výtvorů není definována. Rozlišujeme dva druhy AI - silná, slabá. Slabá AI - funguje bez black-boxu neboli dokáži predikovat výstup a vím jak to funguje na pozadí. Silná AI - funguje na základě black-boxu takže nevím jak funguje na pozadí. U slabé je vlastníkem licence autor AI, zatímco při silné AI se žádný případ neřešil ani není stanovené nějaké právo takže se momentálně nedá jednoznačně říci.
+
+SW paradox máme vývojáře, který vytvoří AI1 a tuto AI1 licencujeme uživateli A. AI1 vytvoří AI2 a tu bude využívat uživatel 2 a v té chvíly vzniká otázka, kdo mi to má licencovat. Jesltli vývojáři, uživatel A nebo AI1. Neví se přímo na koho se obrátit a jestli nevyžadovat i licenci k AI1. Z tohoto plyne jakási nejistota jestli byla licence uzavřena platně nebo ne. Autorské právo postaveno na objektivní pravidlo, kdo něco vytvořil tvůrčí čiností tak ten je autor a může mi to licencovat. Jelikož si nejsem jistej od koho licencovat a jestli se vůbec jedná o tvůrčí výsledek tak může paralizovat jakoukoliv licenční smlouvu a její užívaní.
+
+AI jako objekt práva nemá právní osobnost a způsobilost, momentálně chybý přesvědčívý argument. 
+Shrnutí: nejvíce relavantními jsou nároky tvůrcu AI a uživatelů - něco jako spoluautorství. AI může být "tvůrčí", ale ne autor.
+
+
 ### Co je to licenční smlouva? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k distribuci software.
 
 Licenční smlouva je smlouva na jejíž základě poskytovatel, poskytuje oprávnění k užítí všech nebo jednotlivých způsobů užití. Nabyvatel se zavazuje, není-li sjednáno jinak, poskytnout odměnu. 
