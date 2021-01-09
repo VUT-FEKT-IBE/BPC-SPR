@@ -188,3 +188,23 @@ Příklad vyjímek:
 + Nezbytné pro účeli oprávněných zájmů příslušného správce - například půjčení peněz někomu 
 
 ### Jakými prostředky a čeho se může domáhat autor software při zásahu do jeho autorských práv?
+Ochrana majetkových honot je primárně pomocí soukromněprávního vymáhaní. Mělo by tím být dosaženo vrácení předchozí stavu jako kdyby se nikdy nic nestalo. 
+Vymáhat lze pomocí:
++ Soukromněprávního vymáhaní - napravení předešlý stav a obsahuje (inclusive - použito v přednášce) i to že by zde docházelo ke kompenzacím, náhradě škod, vydání bezdůvodného obohacení a jiné
++ Veřejněprávního vymáhaní
+  + Správněprávní - zde chceme člověka potrestat 
+  + Trestněprávní - zde chceme potrestat a domáhat se náhrady škody - často předáno do občanskoprávního řízení
+  + Ústavněprávní
+  
+Obecně veřejneprávní chce potrestat osoby dle nějakých ustanovení na kterých jsme se dohodly (zákony).\
+Soukromněprávní je dle AZ nebo průmyslová práva (patenty). Žaloba se podává na krajský soud dle bydliště žalovaného. Před zahajením sporu by se měli zjistit informace a podat předžalobní výzvu. Poté podaváme žalobu. Žaloba by neměla mýt nejasný rozsah. Malo by tam být udáno čeho chci dosáhnout v tzv. petitu. Lze se domoci předběžných opatření, které slouží aby nevznikalo další porušovaní práv v průběhu řízení. Vymáhání dle AZ je to ohrožovací delikt takže k zásahu ještě nemuselo dojít. Máme určité nároky jako:
++ Určení autorství - kdo je kdo
++ Zákaz ohrožení - opakovaní
++ Informace - způsob, rozsah, původ atd
++ Reparace - odčiněný škody
++ Satisfakce - příjem náhrady
+Specifickým nárokem je uveřejněný omluvy. V rámci kompenzace se řeší újma ta je majetková a nemajetková. Nemajetková do ní spadá zásha do nemoralních osobnostních práv, v oblasti je to řešeno satifakcemi možno řešit i finančně. Majetková škoda se dělí na schazející a ušlí zisk - řeší se to podle občasnkého ne autorského zákona.
+
+Správněprávní rovina - řeší se pomocí Úřadu obce s rozšířenou působnosté - přestupky. Přestupek vs trestný čin - mírnější trestu a můžou trestat větší okruh jednaní může tam být nedbalost. Trestný čin spáchán pouze úmyslně. Ochrana spotřebitele - neřeší se kompenzace vetšinou se jenom trestá. Padělek - ochrané známky, nedovolená napodobenina - autorské právo a průmyslové vzory. SW vypálen na černo spadá do nedovolené napodobeniny.
+
+Trestněprávní rovina - mělo by to být poslední řešení ne přeskakovat před nižšíma. Řešit důležité věci. U autorského práva nění potřeba minimalní škoda a řeší ho §270. 
