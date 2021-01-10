@@ -12,21 +12,22 @@ Ochrana pokrývá vyjádření ve formě:
   + zdrojový kód
   + jejich mezistupně
   + přípravné koncepční materiály vzniklé při vývoji
-    + model archytektůry SW
+    + model architektůry SW
     + funkční specifikace
     + apod.
 Vyloučení z ochrany jsou "myšlenky a principy na nichž je založen jakýkoliv prvek PC programu, včetně těch, které jsou podkladem jeho propojení s jíným programem". Neboli není chráněna funkcionalita programu, ale pouze její objektivní vyjádření v podobě příslušného kódu.
 
 
-Školní dílo (autorský zýkon §60) - škola mají za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod měl by autor udělit licenci nebo bude udělena soudem.
+Školní dílo (autorský zákon §60) - škola mají za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod měl by autor udělit licenci nebo bude udělena soudem.
 
-Zaměstnanecké dílo (autorský zýkon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajícíh z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonával k takovému programu svým jménem a na svůj účet autorova majetková práva. Pokud není dohoda odlišná tak zaměstanec současně uděluju zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
+Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajícíh z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonával k takovému programu svým jménem a na svůj účet autorova majetková práva. Pokud není dohoda odlišná tak zaměstanec současně uděluju zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
   + spojovat s jinýmy programy
   + dále je měnit 
   + uvádět je na trh
   + vše víše bez zvláštního souhlasu zaměstnance
-  
-Spoluautorské/kolektivní dílo (autorský zýkon §59) je dílo, na kterém se podílí více autorů a je vytvřeno z podnětu a pod vedením FO/PO a uváděno na veřejnost pod jejím jménem. Považují se často za zaměstnanecká díla.
+ 
+Spoluautorské dílo je dílo na kterém se podílí více autorů, kdy všem zúčastněným autorům připadá stejné právo. O nakladaní s dílem musí být roshodnuto jednomyslně.
+Kolektivní dílo (autorský zákon §59) je dílo, na kterém se podílí více autorů a je vytvřeno z podnětu a pod vedením FO/PO a uváděno na veřejnost pod jejím jménem. Považují se často za zaměstnanecká díla.
 
 ### Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?
 
