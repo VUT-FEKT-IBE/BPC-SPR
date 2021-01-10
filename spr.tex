@@ -1,34 +1,75 @@
-\documentclass[12pt,a4paper,czech]{report}
+\documentclass[12pt,a4paper,czech]{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
 \usepackage[utf8]{inputenc}
 \usepackage{babel}
 \usepackage{lmodern} 
 \usepackage{textcomp} 
 \usepackage[T1]{fontenc} 
-\newcommand{\nadpis}[1]{\noindent\textbf{\Large{#1}}\normalsize}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\let\LaTeXStandardTableOfContents\tableofcontents
+\renewcommand{\tableofcontents}{%
+\begingroup%
+\renewcommand{\bfseries}{\relax}%
+\LaTeXStandardTableOfContents%
+\endgroup%
+}%
+
+\newcommand{\nadpis}[1]{{\section{#1}}}
 \newcommand{\nadpisM}[1]{\noindent\textbf{\Huge{#1}}\normalsize}
 
 
 \begin{document}
-\nadpisM{BPC-SPR}\newline
-\newline
+\clearpage
+\vspace*{\fill}
+\begin{center}
+\begin{minipage}{.6\textwidth}
+\begin{center}
+\vspace{0.5cm} \nadpisM{BPC-SPR}\newline
 \newline
 Otázky a odpovědi na SW právo.
-\newline
-\newline
-\newline
+\end{center}
+\end{minipage}
+\end{center}
+\vfill % equivalent to \vspace{\fill}
+\clearpage
+
+
+
+\newpage
+\tableofcontents
+\newpage
+
+\vspace{0.5cm} 
 \nadpis{Jaká práva má autor počítačového programu a~jak jsou tato autorská práva omezena? Jaké jsou varianty výkonu v těchto práv v závislosti na způsobu vzniku počítačového programu (školní dílo, zaměstnanecké dílo, spoluautorské dílo)?}
-\newline
-\newline
 Počítačový program není přesně definován ale popisuje se jako "program v jákekoliv formě, včetně těch, které jsou součástí technického vybavení (HW)". Jak na SK tak EU patentový úřad jej vyjadřuje jako "serii instrukcí, kterou lze spustit na PC"
 
-Autor má autorská práva, kde jsou tyto práva chráněna podle literální dílo a to bez ohledu na fromu vyjádření. \newline
+Autor má autorská práva, kde jsou tyto práva chráněna podle literální dílo a to bez ohledu na fromu vyjádření.
+\newline
+\newline
 Ochrana pokrývá vyjádření ve formě:
 \begin{itemize}
+    \setlength\itemsep{0em}
     \item strojový kód
     \item zdrojový kód
     \item jejich mezistupně
     \item přípravné koncepční materiály vzniklé při vývoji
     \begin{itemize}
+        \setlength\itemsep{0em}
         \item model architektůry SW
         \item funkční specifikace
         \item apod.
@@ -39,8 +80,9 @@ Vyloučení z ochrany jsou "myšlenky a principy na nichž je založen jakýkoli
 
 Školní dílo (autorský zákon §60) - škola mají za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod měl by autor udělit licenci nebo bude udělena soudem.
 
-Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajícíh z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonával k takovému programu svým jménem a na svůj účet autorova majetková práva. Pokud není dohoda odlišná tak zaměstanec současně uděluju zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
+Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajícíh z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonával k takovému programu svým jménem a na svůj účet autorova majetková práva. Pokud není dohoda odlišná tak zaměstanec současně uděluje zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
 \begin{itemize}
+    \setlength\itemsep{0em}
     \item spojovat s jinýmy programy
     \item dále je měnit 
     \item uvádět je na trh
@@ -49,21 +91,22 @@ Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří
 
 Spoluautorské dílo (autorský zákon §8) je dílo na kterém se podílí více autorů, kdy všem zúčastněným autorům připadá stejné právo. O nakladaní s dílem musí být roshodnuto jednomyslně. O spoluautorské dílo se jedná pokud jedtlivé části nejsou způsobilé samostatného užití, jedna část potřebuje druhou. Z právních úkonů jsou také vázani společně a nerozdílně.
 Kolektivní dílo (autorský zákon §59) je dílo, na kterém se podílí více autorů a je vytvřeno z podnětu a pod vedením FO/PO a uváděno na veřejnost pod jejím jménem. Považují se často za zaměstnanecká díla.
-\newline
-\newline
+
+\vspace{0.5cm} 
 \nadpis{Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?}
-\newline
-\newline
+
 Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout inteoperability nexestuje alespon ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegalní držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
 
-Oprávněný nabyvatel - může být ten kdo si program zakoupil, pronajal, získal licenci přímo od držitele práv, a i od původního oprávněného nabyvatele.\newline Oprávněný uživatel - je problematická, opravněný uživatel může být buď na základě smlouvy nebo zákona §66 (oprávněným uživatelem je oprávněný nabyvatel rozmnoženiny, který k ní má vlastnické nebo jiné právo za účelem využití). Řešil to jak nejvyšší soud ale i soudní dvůr EU, který stanovil, že se lze jednat i o jinou osobu než, z kterou to bylo uzavřeno (lze přeprodat licenci) ale původní uživatel musí odstranit SW ze svého pc a nepouživat jej. Nejvyší soud řešil poslané CD s licenčním klíčem.
+Oprávněný nabyvatel - může být ten kdo si program zakoupil, pronajal, získal licenci přímo od držitele práv, a i od původního oprávněného nabyvatele.
+
+Oprávněný uživatel - je problematická, opravněný uživatel může být buď na základě smlouvy nebo zákona §66 (oprávněným uživatelem je oprávněný nabyvatel rozmnoženiny, který k ní má vlastnické nebo jiné právo za účelem využití). Řešil to jak nejvyšší soud ale i soudní dvůr EU, který stanovil, že se lze jednat i o jinou osobu než, z kterou to bylo uzavřeno (lze přeprodat licenci) ale původní uživatel musí odstranit SW ze svého pc a nepouživat jej. Nejvyší soud řešil poslané CD s licenčním klíčem.
 
 Třístupnový test - hledaní vyjímky, musí to být jen vyjímky stanovené v zákoně, aplikace vyjímek je dovolena jen pokud to není v rozporu z užitím díla a nejsou tím nepřiměřeně dotčeny oprávněné zájmy autora. I při dovoleném reverzním inženýrství můsíme projít tímto testem.
-\newline
-\newline
+
+
+\vspace{0.5cm} 
 \nadpis{Jak mohou být právem chráněna rozhraní (datová, uživatelská, aplikační)? Je právem chráněna funkcionalita software?}
-\newline
-\newline
+
 Je uvedeno že myšlenky a principy na nichž je založen prvek programu nejsou chráněny autorským zákonem. SW směrnice - myšlenky a zásady na kterých je založen kterýkoliv prvek programu, nebo jeho rozhraní, nejsou chráněny. 
 
 Datová - jedná se o rozhraní, která slouží k ukládaní a přenosu dat v určitém formátu. Dle SW směrnice tyto rozhraní nebudou chráněna. Lze uvažovat, kdyby to bylo dílo dá se uvažovat o standardní ochraně.
@@ -71,14 +114,17 @@ Datová - jedná se o rozhraní, která slouží k ukládaní a přenosu dat v u
 Uživatelská - Pokud by bylo GUI zcela převzato, mohla by být zasaženo do autorských práv ke GUI jako samostatnému autorskému dílu, nepodlehajícímu zvlašnímu režimu ochrany (viz právo prvák letní), neboli čistě GUI není chráněno až na nějaké vyjímky například. Aby bylo chráněno musí dosáhnout tvůrčího standardu.
 
 Aplikační - Buď je nebo není chráněno autorským zákonem, že nikde není specifikováno jestli se jedná o myšlenku nebo vyjádření. SDEU neřešil ale lze předpokládat, že by to bylo podobné jako z GUI. Pokud by se jednoalo o vyjádření tak je chráněno. Momentálně Google vs Oracle, o kterém by měl soud rozhodnout v 2021. Google pro Android využil stejné API jako je v javě. V prvním řešení bylo rozhodnuto že API není chráněno. Poté odvolací soud rozhodl že API je chráněno, že byla splněna podmínka originality. Momentálně je případ u nejvyšího soudu USA.
-\newline
-\newline
+
+
+\vspace{0.5cm} 
 \nadpis{Jaké jsou základní rozdíly mezi autorskoprávní a patentovou ochranou? Lze chránit v ČR software jako takový? Jaké jsou podmínky patentovatelnosti vynálezu realizovaného počítačem (computer implemented invention)?}
+
+Autorskoprávní ochrana programů, je neschopna chránit funkcionalitu daného programu, neboli dokáže chránit pouze objektivní vyjádření v kódu popřípadě jeho vizuální stránku, ale funkcionalita samostatná není chráněna. K přiměřenému chránění samostatné funkcionality je použito patentová ochrana. Patentově nelze chránit počítačové programy ale tzv. vynálezi uskutečnované počítačem. 
 \newline
 \newline
-Autorskoprávní ochrana programů, je neschopna chránit funkcionalitu daného programu, neboli dokáže chránit pouze objektivní vyjádření v kódu popřípadě jeho vizuální stránku, ale funkcionalita samostatná není chráněna. K přiměřenému chránění samostatné funkcionality je použito patentová ochrana. Patentově nelze chránit počítačové programy ale tzv. vynálezi uskutečnované počítačem.  
 Podmínky patentovatelnosti
 \begin{itemize}
+    \setlength\itemsep{0em}
     \item  vynález neboly ne program ale vynález realizovaný počítačem
     \item novost - vynález se považuje za nový, není-li součástí stavu techniky
     \item vynálezecká činost
@@ -88,11 +134,11 @@ Obecně v ČR SW je chráněn pouze autorským zákonem pokud nespadá pod vyná
 Vynálezi uskutečnované počítačem jsou udělovány i v ČR. Do této dle zákona, nelze patentovat "plány, pravidla a způsob vykonávaní duševní šinnosti, hraní her nebo vykonávání obchodní činosti, jakož i programy počítačů".
 Do vynálezu realizovaného počítačem lze zahrnout počítačový program myšlený jako produkt. Podmínka je technický charakter příslušného vynálezu. Je dán jestliže je počítačový program schopný vyvolat dotatečný technický účinek, když beží na PC nebo je na něm nahrán. nesmí se jednat o běžnou interakci mezi SW a HW.  
 Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí splňovat urřité podmínky, jejich společním jmenovatelem je přítomnost dalšího technického prvku. 
-\newline
-\newline
+
+
+\vspace{0.5cm} 
 \nadpis{Jak lze chránit v ČR databáze? Jak Soudní dvůr Evropské unie vykládá pojem "podstatný vklad do pořízení, ověření nebo předvedení obsahu databáze" ve vztahu k přiznání ochrany zvláštním právem pořizovatele databáze?}
-\newline
-\newline
+
 Databázi lze definovat jako "vnitřně organizované soubory informací, údajů, dat, tedy soubory poznatků o jakýchkoliv skutečnostech".
 Databáze podle §88 - soubor nezávislých děl, údajů, nebo jiných prvků systematicky nebo metodicky uspořádaných a individuálně přístupných elektronickými nebo jinými prostředky, bez ohledu na formu jejich vyjdření.
 V ČR lze databáze chránit dvěmi způsoby a to pomocí autorského zákona a ochranu právem sui generis - zvláštní právo zřizovatele.
@@ -101,41 +147,41 @@ Autorem databáze může být pouze FO nebo skupina takových osob, ale také po
 Ochrana zvláštním právem pořizovatele databáze. Pořizovatelem databáze je osoba, která na svou odpovědnost databázi pořídí nebo osoba, pro kterou z jejího podnětu učiní jiná osoba. Pořizovatel databáze má provo na vytěžování nebo zužitkovaní celého obsahu databáze nebo její kvalitativně nebo kvantitavní části a udělit oprávnění k tomuto i jiné osobě. Vytěžovaním se rozumí trvalé přenesení jejího obsahu na jiný nosič. Na elektro databáze se nevztahuje vyjímka pro osobní použití. Co se týká vytěžení jen části datábáze záleží jestli se jedná o podstatnou nebo nepodstatnou část. Jelikož nepodstatnou část lze vytěžit a zužitkovat jak dle směrnice tak i dle autorského zákona.
 
 SDEU si vykládá, že i zásádní údaje, při posuzovaní zda se jedná o vytěžovaní podstatné či nepodstatné části aktuální hodnota údajů není relevantní. Rozhodné je jaké finanční prostředky či úsilí bylo vloženo pořízení, ověření nebo převeden obsahu této části a nikoliv jaká je cenová hodnota těchto dat v době jejich vytěžení či zužitkování. Také vyjádřil že co nepředstavuje podstatnou část tak představuje podstatnou. Platí to do chvýle než je databáze vytěžována systematicky.
-\newline
-\newline
+
+\vspace{0.5cm} 
 \nadpis{Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?}
-\newline
-\newline
+
 Momentálně dle autorského zákona může být autorem pouze FO takže pokud SW vytvoří SW tak danný SW není autorem nového SW. Pokud je při vývoji SW vysoká účast člověka tak se to bere jako výsledek lidské činosti a AI je použito jako pomocník při vývoji. Takže při tomto je SW chráněn autorským právem. Při nízké účasti člověka záleží na případ od případu není to jednoznačné. Porovnávají se tam prvky objektivní vnímatelnosti, tvůrčí svobody, možnosti vyjádření apod. Obecně AI jejich výtvorů není definována. Rozlišujeme dva druhy AI - silná, slabá. Slabá AI - funguje bez black-boxu neboli dokáži predikovat výstup a vím jak to funguje na pozadí. Silná AI - funguje na základě black-boxu takže nevím jak funguje na pozadí. U slabé je vlastníkem licence autor AI, zatímco při silné AI se žádný případ neřešil ani není stanovené nějaké právo takže se momentálně nedá jednoznačně říci.
 
 SW paradox máme vývojáře, který vytvoří AI1 a tuto AI1 licencujeme uživateli A. AI1 vytvoří AI2 a tu bude využívat uživatel 2 a v té chvíly vzniká otázka, kdo mi to má licencovat. Jesltli vývojáři, uživatel A nebo AI1. Neví se přímo na koho se obrátit a jestli nevyžadovat i licenci k AI1. Z tohoto plyne jakási nejistota jestli byla licence uzavřena platně nebo ne. Autorské právo postaveno na objektivní pravidlo, kdo něco vytvořil tvůrčí čiností tak ten je autor a může mi to licencovat. Jelikož si nejsem jistej od koho licencovat a jestli se vůbec jedná o tvůrčí výsledek tak může paralizovat jakoukoliv licenční smlouvu a její užívaní.
 
 AI jako objekt práva nemá právní osobnost a způsobilost, momentálně chybý přesvědčívý argument. 
 Shrnutí: nejvíce relavantními jsou nároky tvůrcu AI a uživatelů - něco jako spoluautorství. AI může být "tvůrčí", ale ne autor.
-\newline
-\newline
+
+\newpage
 \nadpis{Co je to licenční smlouva? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k distribuci software.}
-\newline
-\newline
+
 Licenční smlouva je smlouva na jejíž základě poskytovatel, poskytuje oprávnění k užítí všech nebo jednotlivých způsobů užití. Nabyvatel se zavazuje, není-li sjednáno jinak, poskytnout odměnu. 
 Licenční smlouva nemusí být v písemné formě. Lze ji uzavřít například ústně. Musí být uzavřena písemně pouze v případech kdy je poskytována jako výhradní. Výhradní licence autor nesmí poskytnou licenci třetí osobě a je obvykle povinen nepoužívat SW, ke kterému licenci udělil. V případě nevýhradní licence může autor použivat SW způsobem, k obsahu licence a poskytnout licence dalším osobám. 
-Elektronické uzavíraní:
+\newline
+\newline
+\textbf{Elektronické uzavíraní:}
 \begin{itemize}
     \item Click-wrap
-  \begin{itemize}
-      \item Potvrzení před prvním užitím
-  \end{itemize}
-  \item Shrink-wrap
-  \begin{itemize}
-      \item Rozbalení krabicového SW
-  \end{itemize}
-  \item Browse-wrap
-  \begin{itemize}
-      \item Souhlas před stažením SW
-  \end{itemize}
+    \begin{itemize}
+        \item Potvrzení před prvním užitím
+    \end{itemize}
+    \item Shrink-wrap
+    \begin{itemize}
+        \item Rozbalení krabicového SW
+    \end{itemize}
+    \item Browse-wrap
+    \begin{itemize}
+        \item Souhlas před stažením SW
+    \end{itemize}
 \end{itemize}
   
-Obsah licence: 
+\noindent\textbf{Obsah licence:}
 \begin{itemize}
     \item Základní
     \begin{itemize}
@@ -163,13 +209,14 @@ Obsah licence:
 \end{itemize}
   
 Hlavním účelem je ochrana díla a specifikace jak s ním lze nakládat. Například jestli lze upravovat nebo předělávat SW. Nebo ho rozmnožovat popřípadě upravenou verzi licencovat. 
-\newline
-\newline
+
+
+\vspace{0.5cm} 
 \nadpis{Co je to smlouva o dílo? Vyjmenujte podstatné a pravidelné náležitosti a popište účel uzavření licenční smlouvy ve vztahu k vývoji software.}
-\newline
-\newline
-Obsah smlouvy o dílo:
+
+\noindent\textbf{Obsah smlouvy o dílo:}
 \begin{itemize}
+    \setlength\itemsep{0em}
     \item Zhotovitel a zadavatel/objednatel
     \item Předmět smlouvy - co chce
     \item Cena
@@ -179,16 +226,20 @@ Obsah smlouvy o dílo:
     \item Závěrečné ustanovení
 \end{itemize}
 
-Je to smlouva na jejímž základě vzniká závazek, jehož předmětem je shotovení, údržba, oprava nebo úprava věci nebo činosti. Většinou se sepisuje pokud je činost financovaná zákazníkem a produkt v našem případě SW je vytvářen dle požadavků zákazníka. Často se pojí se SW na zakázku.\
-Klíčovím ujednáním je specifikace předmetu plnění neboli SW. Oproti specifikaci standardního SW musí být míra specifikace o hodně rozsáhlejší a detailnější. Toto musí proběhnout, aby se předešlo sporům. Proto by specifikace neměla pokrývat pouze funkcionalitu ale také parametry, které nejsou přímo spojené s funkcionalitou ale mohou ji zásadně ovlivnit. Například HW nároky.\
+Je to smlouva na jejímž základě vzniká závazek, jehož předmětem je shotovení, údržba, oprava nebo úprava věci nebo činosti. Většinou se sepisuje pokud je činost financovaná zákazníkem a produkt v našem případě SW je vytvářen dle požadavků zákazníka. Často se pojí se SW na zakázku.
+
+Klíčovým ujednáním je specifikace předmetu plnění neboli SW. Oproti specifikaci standardního SW musí být míra specifikace o hodně rozsáhlejší a detailnější. Toto musí proběhnout, aby se předešlo sporům. Proto by specifikace neměla pokrývat pouze funkcionalitu ale také parametry, které nejsou přímo spojené s funkcionalitou ale mohou ji zásadně ovlivnit. Například HW nároky.
+
 Účelem uzavření licence by měla být nejen schopnost ho použivat ale i různě s ním manipulovat. Například nemežnost přeprodávat nebo poskytovat SW třetí straně. Zde se aplikuje občanský zákoník, kde má zákazník licenci možnost použivat licenci pouze za účelem sjednáneho ve smlouvě. Proto se často sjednává širší opravnění zákazníka/široká licence. Takže účel uzavření licenční smlouvy je za účelem využití daného SW, kde je specifikováno co vše s tím SW lze dělat. Například přeprodej třetím stranám, neomezené množství vlastních licencí na neomezenou dobu, nebo bránit dodavateli aby program sám užíval nebo prodával licenci jiným osobám, popřípadě právo měnit a upravovat dodaný SW. Dále lze sjednat přístup ke zdrojovým kódum + ošetřit její kvalitu (komentáře, dokumentace, atd.).
-\newline
-\newline
+
+
+\newpage
 \nadpis{Co je to SLA? Vyjmenujte náležitosti a popište účel uzavření SLA.}
-\newline
-\newline
+
 SLA - service level agreement je tzv. inominátní smlouva, která upravuje úroveň poskytovaní určité služby. Předmětem můžou být služby jako podpora, údržba a podobné spojedné s dodávkou SW, služby v oblasti cloud computingu nebo služby v oblasti telekomunikací. Často není úzavíraná samostatně, ale je spíše doplňujicí smlouva.
-Typické prvky:
+
+\vspace{0.5cm} 
+\noindent\textbf{Typické prvky:}
 \begin{itemize}
     \item Vymezení samostatné služby, tedy její definice
     \begin{itemize}
@@ -229,11 +280,11 @@ Typické prvky:
         \end{itemize}
     \end{itemize}
 \end{itemize}
-\newline
-\newline
+
+
+\newpage
 \nadpis{Jaký je rozdíl mezi zárukou a odpovědností za vady a jak se tyto typicky uplatňují u software?}
-\newline
-\newline
+
 Záruka - je dobrovolné prohlašení prodávajícího ohledně jakosti jím prodávaného zboží. Při poskytnutí se prodávajicí zavazuje, že věc bude funkční pro obvyklé použití nebo si zachová její vlastnosti. Stačí pokud je uvedeno na obalu, v reklamě, letáku. Záruku lze poskytnout jen na část věci.
 
 Odpovědnost - Dopadá na prodavajícího ze zákona. Její trvaní je po dobu dvou let. Kupujicí uplatňuje právo z vady. Jeli na obalu, návodu, reklamě uvedena doba, po kterou lze věc použít, použivá se ustanovení o záruce za jakost. Víše zmíněné neplatí v případě pokuď se prodavá daná věc už z určitou vadou a její cena je snížena, na opotřebení běžným způsobem, u použité věci odpovídající míře použivaní nebo opotřebení, kterou věc měla při převzetí nebo nevyplívá-li to z povahy věci.
@@ -243,11 +294,11 @@ U SW se zodpovidá za vady,  tyto vady dělíme na faktické a právní. Faktick
 Obecně se na SW vztahuje režim odpovědnosti za vady. Z toho vyplivá, že by dodavaný SW měl být bez chyb. Do chyb se počítá odchýlení od sjednaných vlatností a nevhodnost k výslovně stanovenému účelu. Na bezúplatný SW se odpovědnost za vady nevztahuje (Opensource). 
 
 Obecně se lze domáhat buď opravi chyby pokuď je to možné nebo přiměřené slevy z ceny. Pokuď není možné vadu odstranit lze odstoupit od smlouvy nebo požadovat snížení ceny. 
-\newline
-\newline
+
+
+\vspace{0.5cm} 
 \nadpis{Co je podstatou softwarových veřejných licencí a jak tyto fungují po právní stránce? Kdy zvolíte jakou veřejnou softwarovou licenci a proč?}
-\newline
-\newline
+
 Veřejná licence je specifickým způsobem sjednaná licenční smlouva. SW licencovaný pod veřejnou licencý je vetšinou poskytován bez úplaty. Tímto způsobem se lze zbavit odpovědnosti za chyby v programu, které nezpůsobují právní vady. Obsahuje podmínku uvedení autora. 
 
 Podstatou veřejné licence je zveřejnění díla s licenčními podmínkami, odkazem na ně. Kde nabyvatel licecne není v přímém kontaktu s poskytovatelem. A využívá se hlavně v situaci kdy licenci chceme směřovat na neurčitý počet osob.
@@ -262,11 +313,11 @@ Slabě copyleftové vyžadují šíření odvozených programů pod stejnými li
 Necopyleftové licence neobsahují žádnou nebo velmi omezenou copuleftovou doložku. Ukládají pouze minimální omezení k dalšímu šíření. Proto lze použít i při vývoji SW s neveřejným zdrojovým kódem anyž by bylo porušeno původních podmínek. Zástupci Apache 2.0, BSD a MIT.
 
 Lze měnit licence směrem od nejslabší po nejsilnější ale ne naopak. Další často používanou licencí je Creativ Commons.
-\newline
-\newline
+
+
+\vspace{0.5cm} 
 \nadpis{Definujte správce osobních údajů a popište jeho základní povinnosti dle GDPR. Jaký rozdíl mezi správcem a zpracovatelem osobních údajů?}
-\newline
-\newline
+
 Správce stanovuje účel zpracovaní osobních údajů a po většinu chce zbírat osobní údaje neboli zbírá je za předem definovaným účelem. Lze mít více správců na jedny data ake jaždý odpovídá sám za sebe.
 
 Zpracovatel je osoba/firma, která je najata správcem osobních údajů. Zpracovatel nemusí vždy existovat nebo může jich být více. Například je možné, že se osobní údaje nezpracovávají nebo si je správce zpracovává sám. Pokud zpracovatel začne rozhodovat o účelu dat sám tak se stává správcem.
@@ -275,7 +326,8 @@ Mezi těmito entitami musí při zpracovaní musí být vždy sepsána písemná
 
 Příklad máme firmu A která prodává zboží a bere si osobní údaje jako věk. Tato firma A se stává správcem. Firma A si řekně že chce zpracovat v jakém věku zákazníci nejčastěji nakupují určité položky. Firma to zadá nějaké firmě B nebo osobě, aby jí to zpracovala. Firma B se tím pádem stává zpracovatelem těchto osobních údajů.
 
-Základní povinosti správce osobních údajů vyplívají z GDPR jsou:
+\vspace{0.5cm} 
+\noindent\textbf{Základní povinosti správce osobních údajů vyplívají z GDPR jsou:}
 \begin{itemize}
     \item Odpovědnost
     \begin{itemize}
@@ -294,7 +346,9 @@ Základní povinosti správce osobních údajů vyplívají z GDPR jsou:
 \end{itemize}
 
 K zpracovaní osobních údajů je nutno uvést souhlas, kde by mělo být uvedeno co je zhromaždováno a za jakým účelem. Při potřebě můžu osoba o oteré jsou zhromáždovány osobní údaje požádat o vymazaní z databáze nebo jen přístup k nim. Jsou i vyjímky, kdy lze zpracovávat osobní údaje musí k nim ale existovat zákonný důvod.
-Příklad vyjímek:
+
+\newpage 
+\noindent\textbf{Příklad výjimek:}
 \begin{itemize}
     \item Plnění smlouvy
     \item Plnění právní povinosti - uložení faktůru
@@ -303,11 +357,9 @@ Příklad vyjímek:
     \item Plnění úkolu prováděného ve veřejném zájmu
     \item Nezbytné pro účeli oprávněných zájmů příslušného správce - například půjčení peněz někomu 
 \end{itemize}
-\newline
-\newline
-\nadpis{Jakými prostředky a čeho se může domáhat autor software při zásahu do jeho autorských práv?}
-\newline
-\newline
+
+\vspace{0.3cm} \nadpis{Jakými prostředky a čeho se může domáhat autor software při zásahu do jeho autorských práv?}
+
 Ochrana majetkových honot je primárně pomocí soukromněprávního vymáhaní. Mělo by tím být dosaženo vrácení předchozí stavu jako kdyby se nikdy nic nestalo. 
 Vymáhat lze pomocí:
 + Soukromněprávního vymáhaní - napravení předešlý stav a obsahuje (inclusive - použito v přednášce) i to že by zde docházelo ke kompenzacím, náhradě škod, vydání bezdůvodného obohacení a jiné
