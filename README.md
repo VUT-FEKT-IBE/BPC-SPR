@@ -6,7 +6,7 @@ Otázky a odpovědi na SW právo.
 
 Počítačový program není přesně definován ale popisuje se jako "program v jákekoliv formě, včetně těch, které jsou součástí technického vybavení (HW)". Jak na SK tak EU patentový úřad jej vyjadřuje jako "serii instrukcí, kterou lze spustit na PC"
 
-Autor má autorská práva, kde jsou tyto práva chráněna podle literální dílo a to bez ohledu na fromu vyjádření. 
+Autor má autorská práva, kde jsou tyto práva chráněna podle literální dílo a to bez ohledu na formu vyjádření. 
 Ochrana pokrývá vyjádření ve formě:
   + strojový kód
   + zdrojový kód
@@ -15,28 +15,28 @@ Ochrana pokrývá vyjádření ve formě:
     + model architektůry SW
     + funkční specifikace
     + apod.
+    
 Vyloučení z ochrany jsou "myšlenky a principy na nichž je založen jakýkoliv prvek PC programu, včetně těch, které jsou podkladem jeho propojení s jíným programem". Neboli není chráněna funkcionalita programu, ale pouze její objektivní vyjádření v podobě příslušného kódu.
 
+Školní dílo (autorský zákon §60) - škola má za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod, měl by autor udělit licenci nebo bude udělena soudem.
 
-Školní dílo (autorský zákon §60) - škola mají za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod měl by autor udělit licenci nebo bude udělena soudem.
-
-Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajícíh z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonával k takovému programu svým jménem a na svůj účet autorova majetková práva. Pokud není dohoda odlišná tak zaměstanec současně uděluju zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
-  + spojovat s jinýmy programy
-  + dále je měnit 
-  + uvádět je na trh
-  + vše víše bez zvláštního souhlasu zaměstnance
+Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajících z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonává k takovému programu svým jménem a na svůj účet autorova majetková práva, kde je autor kompenzován nejčastěji mzdou. Pokud není dohoda odlišná tak zaměstanec současně uděluju zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
+  + Spojovat s jinýmy programy
+  + Dále je měnit 
+  + Uvádět je na trh
+  + Vše víše bez zvláštního souhlasu zaměstnance
  
 Spoluautorské dílo (autorský zákon §8) je dílo na kterém se podílí více autorů, kdy všem zúčastněným autorům připadá stejné právo. O nakladaní s dílem musí být roshodnuto jednomyslně. O spoluautorské dílo se jedná pokud jedtlivé části nejsou způsobilé samostatného užití, jedna část potřebuje druhou. Z právních úkonů jsou také vázani společně a nerozdílně.\
 Kolektivní dílo (autorský zákon §59) je dílo, na kterém se podílí více autorů a je vytvřeno z podnětu a pod vedením FO/PO a uváděno na veřejnost pod jejím jménem. Považují se často za zaměstnanecká díla.
 
 ### Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?
 
-Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout inteoperability nexestuje alespon ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegalní držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
+Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až po vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout inteoperability neexistuje alespoň ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegalní držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
 
 Oprávněný nabyvatel - může být ten kdo si program zakoupil, pronajal, získal licenci přímo od držitele práv, a i od původního oprávněného nabyvatele.
 Oprávněný uživatel - je problematická, opravněný uživatel může být buď na základě smlouvy nebo zákona §66 (oprávněným uživatelem je oprávněný nabyvatel rozmnoženiny, který k ní má vlastnické nebo jiné právo za účelem využití). Řešil to jak nejvyšší soud ale i soudní dvůr EU, který stanovil, že se lze jednat i o jinou osobu než, z kterou to bylo uzavřeno (lze přeprodat licenci) ale původní uživatel musí odstranit SW ze svého pc a nepouživat jej. Nejvyší soud řešil poslané CD s licenčním klíčem.
 
-Třístupnový test - hledaní vyjímky, musí to být jen vyjímky stanovené v zákoně, aplikace vyjímek je dovolena jen pokud to není v rozporu z užitím díla a nejsou tím nepřiměřeně dotčeny oprávněné zájmy autora. I při dovoleném reverzním inženýrství můsíme projít tímto testem.
+Třístupnový test - hledaní vyjímky, musí to být jen vyjímky stanovené v zákoně, aplikace vyjímek je dovolena jen pokud to není v rozporu s užitím díla a nejsou tím nepřiměřeně dotčeny oprávněné zájmy autora. I při dovoleném reverzním inženýrství můsíme projít tímto testem.
 
 ### Jak mohou být právem chráněna rozhraní (datová, uživatelská, aplikační)? Je právem chráněna funkcionalita software?
 
@@ -50,17 +50,17 @@ Aplikační - Buď je nebo není chráněno autorským zákonem, že nikde není
 
 ### Jaké jsou základní rozdíly mezi autorskoprávní a patentovou ochranou? Lze chránit v ČR software jako takový? Jaké jsou podmínky patentovatelnosti vynálezu realizovaného počítačem (computer implemented invention)?
 
-Autorskoprávní ochrana programů, je neschopna chránit funkcionalitu daného programu, neboli dokáže chránit pouze objektivní vyjádření v kódu popřípadě jeho vizuální stránku, ale funkcionalita samostatná není chráněna. K přiměřenému chránění samostatné funkcionality je použito patentová ochrana. Patentově nelze chránit počítačové programy ale tzv. vynálezi uskutečnované počítačem.  
+Autorskoprávní ochrana programů, je neschopna chránit funkcionalitu daného programu, neboli dokáže chránit pouze objektivní vyjádření v kódu popřípadě jeho vizuální stránku, ale funkcionalita samostatná není chráněna. K přiměřenému chránění samostatné funkcionality je použita patentová ochrana. Patentově nelze chránit počítačové programy ale tzv. vynálezi uskutečnované počítačem.  
 Podmínky patentovatelnosti
-  + vynález neboly ne program ale vynález realizovaný počítačem
-  + novost - vynález se považuje za nový, není-li součástí stavu techniky
-  + vynálezecká činost
-  + průmyslová využitelnost - může li být vynález vyráběn nebo využíván ve všech odvětvých průmyslu
+  + Vynález neboli ne program, ale vynález realizovaný počítačem
+  + Novost - vynález se považuje za nový, není-li součástí stavu techniky
+  + Vynálezecká činost
+  + Průmyslová využitelnost - může-li být vynález vyráběn nebo využíván ve všech odvětvých průmyslu
   
 Obecně v ČR SW je chráněn pouze autorským zákonem pokud nespadá pod vynálezy uskutečnované počítačem ty lze chránit patenty.  
-Vynálezi uskutečnované počítačem jsou udělovány i v ČR. Do této dle zákona, nelze patentovat "plány, pravidla a způsob vykonávaní duševní šinnosti, hraní her nebo vykonávání obchodní činosti, jakož i programy počítačů".
-Do vynálezu realizovaného počítačem lze zahrnout počítačový program myšlený jako produkt. Podmínka je technický charakter příslušného vynálezu. Je dán jestliže je počítačový program schopný vyvolat dotatečný technický účinek, když beží na PC nebo je na něm nahrán. nesmí se jednat o běžnou interakci mezi SW a HW.  
-Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí splňovat urřité podmínky, jejich společním jmenovatelem je přítomnost dalšího technického prvku. 
+Vynálezi uskutečnované počítačem jsou udělovány i v ČR. Do této dle zákona, nelze patentovat "plány, pravidla a způsob vykonávaní duševní činnosti, hraní her nebo vykonávání obchodní činosti, jakož i programy počítačů".
+Do vynálezu realizovaného počítačem lze zahrnout počítačový program myšlený jako produkt. Podmínka je technický charakter příslušného vynálezu. Je dán jestliže je počítačový program schopný vyvolat dodatečný technický účinek, když beží na PC nebo je na něm nahrán. Nesmí se jednat o běžnou interakci mezi SW a HW.  
+Na konec hlavní podmínkou, že nelze patentovat SW jako takový ale musí splňovat určité podmínky, jejich společným jmenovatelem je přítomnost dalšího technického prvku. 
 
 ### Jak lze chránit v ČR databáze? Jak Soudní dvůr Evropské unie vykládá pojem "podstatný vklad do pořízení, ověření nebo předvedení obsahu databáze" ve vztahu k přiznání ochrany zvláštním právem pořizovatele databáze?
 
@@ -68,17 +68,17 @@ Databázi lze definovat jako "vnitřně organizované soubory informací, údaj�
 Databáze podle §88 - soubor nezávislých děl, údajů, nebo jiných prvků systematicky nebo metodicky uspořádaných a individuálně přístupných elektronickými nebo jinými prostředky, bez ohledu na formu jejich vyjdření.\
 V ČR lze databáze chránit dvěmi způsoby a to pomocí autorského zákona a ochranu právem sui generis - zvláštní právo zřizovatele.\
 Z pohledu autorského zákona prvně databáze ovlivnila Bernská úmluva, a poté TRIPS (specifikuje že chrání způsobem výběru či usporádáním originální soubory libovoných materiálů a dat) na kterou navázala WCT, která řeší vše až na problematiku dočasné technické rozmnoženiny. Autorským zákonem je chráněna struktůra databáze a ne její obsah.\
-Autorem databáze může být pouze FO nebo skupina takových osob, ale také pokuď to umožněju přávní řád tak PO.\
-Ochrana zvláštním právem pořizovatele databáze. Pořizovatelem databáze je osoba, která na svou odpovědnost databázi pořídí nebo osoba, pro kterou z jejího podnětu učiní jiná osoba. Pořizovatel databáze má provo na vytěžování nebo zužitkovaní celého obsahu databáze nebo její kvalitativně nebo kvantitavní části a udělit oprávnění k tomuto i jiné osobě. Vytěžovaním se rozumí trvalé přenesení jejího obsahu na jiný nosič. Na elektro databáze se nevztahuje vyjímka pro osobní použití. Co se týká vytěžení jen části datábáze záleží jestli se jedná o podstatnou nebo nepodstatnou část. Jelikož nepodstatnou část lze vytěžit a zužitkovat jak dle směrnice tak i dle autorského zákona.
+Autorem databáze může být pouze FO nebo skupina takových osob, ale také pokuď to umožňuju právní řád tak PO.\
+Ochrana zvláštním právem pořizovatele databáze. Pořizovatelem databáze je osoba, která na svou odpovědnost databázi pořídí nebo osoba, pro kterou z jejího podnětu učiní jiná osoba. Pořizovatel databáze má právo na vytěžování nebo zužitkovaní celého obsahu databáze nebo její kvalitativně nebo kvantitavní části a udělit oprávnění k tomuto i jiné osobě. Vytěžovaním se rozumí trvalé přenesení jejího obsahu na jiný nosič. Na elektro databáze se nevztahuje vyjímka pro osobní použití. Co se týká vytěžení jen části datábáze záleží jestli se jedná o podstatnou nebo nepodstatnou část. Jelikož nepodstatnou část lze vytěžit a zužitkovat jak dle směrnice tak i dle autorského zákona.
 
-SDEU si vykládá, že i zásádní údaje, při posuzovaní zda se jedná o vytěžovaní podstatné či nepodstatné části aktuální hodnota údajů není relevantní. Rozhodné je jaké finanční prostředky či úsilí bylo vloženo pořízení, ověření nebo převeden obsahu této části a nikoliv jaká je cenová hodnota těchto dat v době jejich vytěžení či zužitkování.
+SDEU si vykládá, že i zásádní údaje, při posuzovaní zda se jedná o vytěžovaní podstatné či nepodstatné části aktuální hodnota údajů není relevantní. Rozhodné je jaké finanční prostředky či úsilí bylo vloženo do pořízení, ověření nebo převeden obsahu této části a nikoliv jaká je cenová hodnota těchto dat v době jejich vytěžení či zužitkování.
 Také vyjádřil že co nepředstavuje podstatnou část tak představuje podstatnou. Platí to do chvýle než je databáze vytěžována systematicky.
 
 ### Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?
 
 Momentálně dle autorského zákona může být autorem pouze FO takže pokud SW vytvoří SW tak danný SW není autorem nového SW. Pokud je při vývoji SW vysoká účast člověka tak se to bere jako výsledek lidské činosti a AI je použito jako pomocník při vývoji. Takže při tomto je SW chráněn autorským právem. Při nízké účasti člověka záleží na případ od případu není to jednoznačné. Porovnávají se tam prvky objektivní vnímatelnosti, tvůrčí svobody, možnosti vyjádření apod. Obecně AI jejich výtvorů není definována. Rozlišujeme dva druhy AI - silná, slabá. Slabá AI - funguje bez black-boxu neboli dokáži predikovat výstup a vím jak to funguje na pozadí. Silná AI - funguje na základě black-boxu takže nevím jak funguje na pozadí. U slabé je vlastníkem licence autor AI, zatímco při silné AI se žádný případ neřešil ani není stanovené nějaké právo takže se momentálně nedá jednoznačně říci.
 
-SW paradox máme vývojáře, který vytvoří AI1 a tuto AI1 licencujeme uživateli A. AI1 vytvoří AI2 a tu bude využívat uživatel 2 a v té chvíly vzniká otázka, kdo mi to má licencovat. Jesltli vývojáři, uživatel A nebo AI1. Neví se přímo na koho se obrátit a jestli nevyžadovat i licenci k AI1. Z tohoto plyne jakási nejistota jestli byla licence uzavřena platně nebo ne. Autorské právo postaveno na objektivní pravidlo, kdo něco vytvořil tvůrčí čiností tak ten je autor a může mi to licencovat. Jelikož si nejsem jistej od koho licencovat a jestli se vůbec jedná o tvůrčí výsledek tak může paralizovat jakoukoliv licenční smlouvu a její užívaní.
+SW paradox máme vývojáře, který vytvoří AI1 a tuto AI1 licencujeme uživateli A. AI1 vytvoří AI2 a tu bude využívat uživatel 2 a v té chvíly vzniká otázka, kdo mi to má licencovat. Jestli vývojáři, uživatel A nebo AI1. Neví se přímo na koho se obrátit a jestli nevyžadovat i licenci k AI1. Z tohoto plyne jakási nejistota jestli byla licence uzavřena platně nebo ne. Autorské právo je postaveno na objektivní pravidlo, kdo něco vytvořil tvůrčí čiností tak ten je autor a může mi to licencovat. Jelikož si nejsem jistý od koho licencovat a jestli se vůbec jedná o tvůrčí výsledek tak může paralizovat jakoukoliv licenční smlouvu a její užívaní.
 
 AI jako objekt práva nemá právní osobnost a způsobilost, momentálně chybý přesvědčívý argument. 
 Shrnutí: nejvíce relavantními jsou nároky tvůrcu AI a uživatelů - něco jako spoluautorství. AI může být "tvůrčí", ale ne autor.
@@ -100,8 +100,8 @@ Obsah licence:
 + Základní
   + Smluvní strany
   + Specifikace autorského díla
-    + předmět
-    - není nutno popisovat funkcionalitu
+    + Předmět
+    - Není nutno popisovat funkcionalitu
   + Právo a způsob užití
   + Rozsah licence
   + Odměna za poskytnutí licence
@@ -128,48 +128,48 @@ Obsah smlouvy o dílo:
  + Odpovědnost za vady
  + Závěrečné ustanovení
  
-Je to smlouva na jejímž základě vzniká závazek, jehož předmětem je shotovení, údržba, oprava nebo úprava věci nebo činosti. Většinou se sepisuje pokud je činost financovaná zákazníkem a produkt v našem případě SW je vytvářen dle požadavků zákazníka. Často se pojí se SW na zakázku.\
+Je to smlouva na jejímž základě vzniká závazek, jehož předmětem je zhotovení, údržba, oprava nebo úprava věci nebo činosti. Většinou se sepisuje pokud je činost financovaná zákazníkem a produkt v našem případě SW je vytvářen dle požadavků zákazníka. Často se pojí se SW na zakázku.\
 Klíčovím ujednáním je specifikace předmetu plnění neboli SW. Oproti specifikaci standardního SW musí být míra specifikace o hodně rozsáhlejší a detailnější. Toto musí proběhnout, aby se předešlo sporům. Proto by specifikace neměla pokrývat pouze funkcionalitu ale také parametry, které nejsou přímo spojené s funkcionalitou ale mohou ji zásadně ovlivnit. Například HW nároky.\
-Účelem uzavření licence by měla být nejen schopnost ho použivat ale i různě s ním manipulovat. Například nemežnost přeprodávat nebo poskytovat SW třetí straně. Zde se aplikuje občanský zákoník, kde má zákazník licenci možnost použivat licenci pouze za účelem sjednáneho ve smlouvě. Proto se často sjednává širší opravnění zákazníka/široká licence. Takže účel uzavření licenční smlouvy je za účelem využití daného SW, kde je specifikováno co vše s tím SW lze dělat. Například přeprodej třetím stranám, neomezené množství vlastních licencí na neomezenou dobu, nebo bránit dodavateli aby program sám užíval nebo prodával licenci jiným osobám, popřípadě právo měnit a upravovat dodaný SW. Dále lze sjednat přístup ke zdrojovým kódum + ošetřit její kvalitu (komentáře, dokumentace, atd.).
+Účelem uzavření licence by měla být nejen schopnost ho použivat ale i různě s ním manipulovat. Například nemožnost přeprodávat nebo poskytovat SW třetí straně. Zde se aplikuje občanský zákoník, kde má zákazník licenci možnost použivat licenci pouze za účelem sjednáneho ve smlouvě. Proto se často sjednává širší opravnění zákazníka/široká licence. Takže účel uzavření licenční smlouvy je za účelem využití daného SW, kde je specifikováno co vše s tím SW lze dělat. Například přeprodej třetím stranám, neomezené množství vlastních licencí na neomezenou dobu, nebo bránit dodavateli aby program sám užíval nebo prodával licenci jiným osobám, popřípadě právo měnit a upravovat dodaný SW. Dále lze sjednat přístup ke zdrojovým kódum + ošetřit její kvalitu (komentáře, dokumentace, atd.).
 
 ### Co je to SLA? Vyjmenujte náležitosti a popište účel uzavření SLA.
 
 SLA - service level agreement je tzv. inominátní smlouva, která upravuje úroveň poskytovaní určité služby. Předmětem můžou být služby jako podpora, údržba a podobné spojedné s dodávkou SW, služby v oblasti cloud computingu nebo služby v oblasti telekomunikací. Často není úzavíraná samostatně, ale je spíše doplňujicí smlouva.
 Typické prvky:
 + Vymezení samostatné služby, tedy její definice
-  + podpora SW
-  + odstrańovaní vad
+  + Podpora SW
+  + Odstrańovaní vad
   + PC program poskytovaný jako služba
 + Parametry služby a způsob vyhodnocení - důležité preciznost jejich vymezení.
   + Z pohledu parametrů je důležité přesně vymezit, kdy se využijí (vyjímka z dostupnosti pro plánované odstávce).
-    + dostupnost
-    + reakční doba
-    + doba do odstranění závad
+    + Dostupnost
+    + Reakční doba
+    + Doba do odstranění závad
   + Z pohledu vyhodnocení je důležité jak bude provedeno
-    + období
-      - rok
-      - měsíc
-      - týden
-      - apod
-    + jaký mechanismus
-      - jak bude měřena dostupnost služby
-+ kreditace - klíčový prvek, forma sankce za nedodržení úrovně služby
-  + podoba
-    + sleva z ceny
-    + smluvní pokuta - může překročit smluvní částku za službu narozdíl od slevy
-    + případně délku budoucího období poskytnutí služby zdarma tzv free service days
+    + Období
+      - Rok
+      - Měsíc
+      - Týden
+      - Apod.
+    + Jaký mechanismus
+      - Jak bude měřena dostupnost služby
++ Kreditace - klíčový prvek, forma sankce za nedodržení úrovně služby
+  + Podoba
+    + Sleva z ceny
+    + Smluvní pokuta - může překročit smluvní částku za službu narozdíl od slevy
+    + Případně délku budoucího období poskytnutí služby zdarma tzv. free service days
 
 ### Jaký je rozdíl mezi zárukou a odpovědností za vady a jak se tyto typicky uplatňují u software?
 
-Záruka - je dobrovolné prohlašení prodávajícího ohledně jakosti jím prodávaného zboží. Při poskytnutí se prodávajicí zavazuje, že věc bude funkční pro obvyklé použití nebo si zachová její vlastnosti. Stačí pokud je uvedeno na obalu, v reklamě, letáku. Záruku lze poskytnout jen na část věci.
+Záruka - je dobrovolné prohlašení prodávajícího ohledně jakosti jím prodávaného zboží. Při poskytnutí se prodávajicí zavazuje, že věc bude funkční pro obvyklé použití nebo si zachová její vlastnosti. Stačí pokud je uvedeno na obalu, v reklamě, letáku. Záruku lze poskytnout i jen na část věci.
 
 Odpovědnost - Dopadá na prodavajícího ze zákona. Její trvaní je po dobu dvou let. Kupujicí uplatňuje právo z vady. Jeli na obalu, návodu, reklamě uvedena doba, po kterou lze věc použít, použivá se ustanovení o záruce za jakost. Víše zmíněné neplatí v případě pokuď se prodavá daná věc už z určitou vadou a její cena je snížena, na opotřebení běžným způsobem, u použité věci odpovídající míře použivaní nebo opotřebení, kterou věc měla při převzetí nebo nevyplívá-li to z povahy věci.
 
-U SW se zodpovidá za vady,  tyto vady dělíme na faktické a právní. Faktické vady jsou nevhodné či nedostatečné funkcionality SW může souviset jak z bugy tak nevhodnou implementací, nekompatibilitě nebo například taky bezpečnostní chyby/ nedostatečná bezpečnost SW. Právní vady spočívají zatížením SW nárokem jiné osoby v rozporu se smlouvou, na základě byl SW pořízen. 
+U SW se zodpovidá za vady,  tyto vady dělíme na faktické a právní. Faktické vady jsou nevhodné či nedostatečné funkcionality SW může souviset jak z bugy tak nevhodnou implementací, nekompatibilitě nebo například taky bezpečnostní chyby, nedostatečná bezpečnost SW. Právní vady spočívají zatížením SW nárokem jiné osoby v rozporu se smlouvou, na základě byl SW pořízen. 
 
 Obecně se na SW vztahuje režim odpovědnosti za vady. Z toho vyplivá, že by dodavaný SW měl být bez chyb. Do chyb se počítá odchýlení od sjednaných vlatností a nevhodnost k výslovně stanovenému účelu. Na bezúplatný SW se odpovědnost za vady nevztahuje (Opensource). 
 
-Obecně se lze domáhat buď opravi chyby pokuď je to možné nebo přiměřené slevy z ceny. Pokuď není možné vadu odstranit lze odstoupit od smlouvy nebo požadovat snížení ceny. 
+Obecně se lze domáhat buď opravit chyby pokuď je to možné nebo přiměřené slevy z ceny. Pokuď není možné vadu odstranit lze odstoupit od smlouvy nebo požadovat snížení ceny. 
 
 ### Co je podstatou softwarových veřejných licencí a jak tyto fungují po právní stránce? Kdy zvolíte jakou veřejnou softwarovou licenci a proč?
 
@@ -181,14 +181,14 @@ Podstatou veřejné licence je zveřejnění díla s licenčními podmínkami, o
 Nejčastěji se veřejných licencí využívá v OSS. Typy licencí jsou silně copyleftové, slabě copyleftové a necopyleftové.\
 Silně copyleftové nesou omezení při zpracovaní a šíření SW. Požadují aby původní nebo nový program, který obsahuje původní byl šířen pod původními licenčními podmínkamy a současně garantují tvůrci přístup ke zdrojovému kódu. Zástupci jsou GNU GPL v2 a v3\
 Slabě copyleftové vyžadují šíření odvozených programů pod stejnými licenčními podmínkami a zpřístupnění jejich zdrojových kódů. Umožnují vytvaření programů, které jsou propojené a šířené společně s původním programem aniž by měnily či použivaly jeho zdrojový kód a tyto programy šířit pod libovolnou licencí. Nejčastěji to jsou standardní knihovny. Nemusí se vydat zdrojové kódy vlastního kódu ale pouze musí uvést a zpřístupnit původní část programu pod původní licencí. Zástupci MPL (Mozila Public License) v 1.1 a  LGPL (Lesser General Public License) v2.1.\
-Necopuleftové licence neobsahují žádnou nebo velmi omezenou copuleftovou doložku. Ukládají pouze minimální omezení k dalšímu šíření. Proto lze použít i při vývoji SW s neveřejným zdrojovým kódem anyž by bylo porušeno původních podmínek. Zástupci Apache 2.0, BSD a MIT.\
+Necopyleftové licence neobsahují žádnou nebo velmi omezenou copyleftovou doložku. Ukládají pouze minimální omezení k dalšímu šíření. Proto lze použít i při vývoji SW s neveřejným zdrojovým kódem anyž by bylo porušeno původních podmínek. Zástupci Apache 2.0, BSD a MIT.\
 Lze měnit licence směrem od nejslabší po nejsilnější ale ne naopak. Další často používanou licencí je Creativ Commons.
 
 ### Definujte správce osobních údajů a popište jeho základní povinnosti dle GDPR. Jaký rozdíl mezi správcem a zpracovatelem osobních údajů?
 
 Správce stanovuje účel zpracovaní osobních údajů a po většinu chce zbírat osobní údaje neboli zbírá je za předem definovaným účelem. Lze mít více správců na jedny data ake jaždý odpovídá sám za sebe.\
 Zpracovatel je osoba/firma, která je najata správcem osobních údajů. Zpracovatel nemusí vždy existovat nebo může jich být více. Například je možné, že se osobní údaje nezpracovávají nebo si je správce zpracovává sám. Pokud zpracovatel začne rozhodovat o účelu dat sám tak se stává správcem.\
-Mezi těmito entitami musí při zpracovaní musí být vždy sepsána písemná smlouva.\
+Mezi těmito entitami musí při zpracovaní být vždy sepsána písemná smlouva.\
 Příklad máme firmu A která prodává zboží a bere si osobní údaje jako věk. Tato firma A se stává správcem. Firma A si řekně že chce zpracovat v jakém věku zákazníci nejčastěji nakupují určité položky. Firma to zadá nějaké firmě B nebo osobě, aby jí to zpracovala. Firma B se tím pádem stává zpracovatelem těchto osobních údajů.\
 
 Základní povinosti správce osobních údajů vyplívají z GDPR jsou:
@@ -198,12 +198,12 @@ Základní povinosti správce osobních údajů vyplívají z GDPR jsou:
   + Za zabezpečení údajů
 + Povinosti
   + Aplikace standardní ochrany osbních údajů
-  + jmenovat pověřence pro ochranu osobních údajů
+  + Jmenovat pověřence pro ochranu osobních údajů
   + Posuzovat vliv na ochranu osobnách údajů
   + Ohlásit připady porušení zabezpečení osobních údajů jak úřadu tak postiženým osobám
-  + vést záznamy
+  + Vést záznamy
 
-K zpracovaní osobních údajů je nutno uvést souhlas, kde by mělo být uvedeno co je zhromaždováno a za jakým účelem. Při potřebě můžu osoba o oteré jsou zhromáždovány osobní údaje požádat o vymazaní z databáze nebo jen přístup k nim. Jsou i vyjímky, kdy lze zpracovávat osobní údaje musí k nim ale existovat zákonný důvod.\
+K zpracovaní osobních údajů je nutno uvést souhlas, kde by mělo být uvedeno co je zhromaždováno a za jakým účelem. Při potřebě můžu osoba o které jsou shromáždovány osobní údaje požádat o vymazaní z databáze nebo jen přístup k nim. Jsou i vyjímky, kdy lze zpracovávat osobní údaje musí k nim ale existovat zákonný důvod.\
 Příklad vyjímek:
 + Plnění smlouvy
 + Plnění právní povinosti - uložení faktůru
@@ -213,7 +213,8 @@ Příklad vyjímek:
 + Nezbytné pro účeli oprávněných zájmů příslušného správce - například půjčení peněz někomu 
 
 ### Jakými prostředky a čeho se může domáhat autor software při zásahu do jeho autorských práv?
-Ochrana majetkových honot je primárně pomocí soukromněprávního vymáhaní. Mělo by tím být dosaženo vrácení předchozí stavu jako kdyby se nikdy nic nestalo. 
+
+Ochrana majetkových hodnot je primárně pomocí soukromněprávního vymáhaní. Mělo by tím být dosaženo vrácení předchozí stavu jako kdyby se nikdy nic nestalo. 
 Vymáhat lze pomocí:
 + Soukromněprávního vymáhaní - napravení předešlý stav a obsahuje (inclusive - použito v přednášce) i to že by zde docházelo ke kompenzacím, náhradě škod, vydání bezdůvodného obohacení a jiné
 + Veřejněprávního vymáhaní
@@ -221,13 +222,15 @@ Vymáhat lze pomocí:
   + Trestněprávní - zde chceme potrestat a domáhat se náhrady škody - často předáno do občanskoprávního řízení
   + Ústavněprávní
   
-Obecně veřejneprávní chce potrestat osoby dle nějakých ustanovení na kterých jsme se dohodly (zákony).\
-Soukromněprávní je dle AZ nebo průmyslová práva (patenty). Žaloba se podává na krajský soud dle bydliště žalovaného. Před zahajením sporu by se měli zjistit informace a podat předžalobní výzvu. Poté podaváme žalobu. Žaloba by neměla mýt nejasný rozsah. Malo by tam být udáno čeho chci dosáhnout v tzv. petitu. Lze se domoci předběžných opatření, které slouží aby nevznikalo další porušovaní práv v průběhu řízení. Vymáhání dle AZ je to ohrožovací delikt takže k zásahu ještě nemuselo dojít. Máme určité nároky jako:
+Obecně veřejneprávní chce potrestat osoby dle nějakých ustanovení na kterých jsme se dohodly (zákony).
+
+Soukromněprávní je dle AZ nebo průmyslová práva (patenty). Žaloba se podává na krajský soud dle bydliště žalovaného. Před zahajením sporu by se měli zjistit informace a podat předžalobní výzvu. Poté podaváme žalobu. Žaloba by neměla mít nejasný rozsah. Mělo by tam být udáno čeho chci dosáhnout v tzv. petitu. Lze se domoci předběžných opatření, které slouží aby nevznikalo další porušovaní práv v průběhu řízení. Vymáhání dle AZ je to ohrožovací delikt takže k zásahu ještě nemuselo dojít. Máme určité nároky jako:
 + Určení autorství - kdo je kdo
 + Zákaz ohrožení - opakovaní
 + Informace - způsob, rozsah, původ atd
 + Reparace - odčiněný škody
 + Satisfakce - příjem náhrady
+
 Specifickým nárokem je uveřejněný omluvy. V rámci kompenzace se řeší újma ta je majetková a nemajetková. Nemajetková do ní spadá zásha do nemoralních osobnostních práv, v oblasti je to řešeno satifakcemi možno řešit i finančně. Majetková škoda se dělí na schazející a ušlí zisk - řeší se to podle občasnkého ne autorského zákona.
 
 Správněprávní rovina - řeší se pomocí Úřadu obce s rozšířenou působnosté - přestupky. Přestupek vs trestný čin - mírnější trestu a můžou trestat větší okruh jednaní může tam být nedbalost. Trestný čin spáchán pouze úmyslně. Ochrana spotřebitele - neřeší se kompenzace vetšinou se jenom trestá. Padělek - ochrané známky, nedovolená napodobenina - autorské právo a průmyslové vzory. SW vypálen na černo spadá do nedovolené napodobeniny.
