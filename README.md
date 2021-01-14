@@ -20,7 +20,7 @@ Vyloučení z ochrany jsou "myšlenky a principy na nichž je založen jakýkoli
 
 Školní dílo (autorský zákon §60) - škola má za obvyklých podmínek právo na uzavření licenční smlouvy o užití díla. Pokud není závažný důvod, měl by autor udělit licenci nebo bude udělena soudem.
 
-Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých poviností vyplívajících z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonává k takovému programu svým jménem a na svůj účet autorova majetková práva, kde je autor kompenzován nejčastěji mzdou. Pokud není dohoda odlišná tak zaměstnanec současně uděluje zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
+Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří program ke splnění svých povinností vyplívajících z pracovněprávního nebo služebního vztahu a neexistuje-li mezi zaměstnavatelem a zaměstnancem odlišná dohoda, zaměstnavatel vykonává k takovému programu svým jménem a na svůj účet autorova majetková práva, kde je autor kompenzován nejčastěji mzdou. Pokud není dohoda odlišná tak zaměstnanec současně uděluje zaměstnavateli svolení k úkonům, které by zasahovali do práv osobních.
   + Spojovat s jinými programy
   + Dále je měnit 
   + Uvádět je na trh
@@ -31,9 +31,9 @@ Kolektivní dílo (autorský zákon §59) je dílo, na kterém se podílí více
 
 ### Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?
 
-Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až po vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout inteoperability neexistuje alespoň ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegální držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
+Dekompilace programu, není povolena v každém případě, lze provádět pouze za účelem interoperability (je schopnost různých systémů vzájemně spolupracovat, poskytovat si služby, dosáhnout vzájemné součinnosti) a je třeba provádět jen nezbytně nutné úkony. Dekompilovat lze pouze až po vyčerpaní všech možností jako je obracení na autora. Platí pouze za speciálních podmínek. Při dekompilaci lze pouze provádět rozmnožovaní kódu a překlad formy kódu ve smyslu čl.4 SW směrnice - stále nebo dočasné rozmnožovaní, překlady zpracovaní, a jiné úpravy programu. Taktéž nelze dekompilovat pokud program, se kterým chceme dosáhnout interoperability neexistuje alespoň ve formě návrhu. Dále může dekompilovat pouze oprávněná osoba, nelegální držitelé licence dekompilaci nemohou provádět. Všechny potřebné informace mohou být požity pouze k dosažení interoperability. 
 
-Oprávněný nabyvatel - může být ten kdo si program zakoupil, pronajal, získal licenci přímo od držitele práv, a i od původního oprávněného nabyvatele.
+Oprávněný nabyvatel - může být ten kdo si program zakoupil, pronajal, získal licenci přímo od držitele práv, a i od původního oprávněného nabyvatele.\
 Oprávněný uživatel - je problematická, oprávněný uživatel může být buď na základě smlouvy nebo zákona §66 (oprávněným uživatelem je oprávněný nabyvatel rozmnoženiny, který k ní má vlastnické nebo jiné právo za účelem využití). Řešil to jak nejvyšší soud ale i soudní dvůr EU, který stanovil, že se lze jednat i o jinou osobu než, z kterou to bylo uzavřeno (lze přeprodat licenci) ale původní uživatel musí odstranit SW ze svého pc a nepoužívat jej. Nejvyšší soud řešil poslané CD s licenčním klíčem.
 
 Třístupňový test - hledaní vyjímky, musí to být jen vyjímky stanovené v zákoně, aplikace vyjímek je dovolena jen pokud to není v rozporu s užitím díla a nejsou tím nepřiměřeně dotčeny oprávněné zájmy autora. I při dovoleném reverzním inženýrství musíme projít tímto testem.
@@ -51,7 +51,7 @@ Aplikační - Buď je nebo není chráněno autorským zákonem, že nikde není
 ### Jaké jsou základní rozdíly mezi autorskoprávní a patentovou ochranou? Lze chránit v ČR software jako takový? Jaké jsou podmínky patentovatelnosti vynálezu realizovaného počítačem (computer implemented invention)?
 
 Autorskoprávní ochrana programů, je neschopna chránit funkcionalitu daného programu, neboli dokáže chránit pouze objektivní vyjádření v kódu popřípadě jeho vizuální stránku, ale funkcionalita samostatná není chráněna. K přiměřenému chránění samostatné funkcionality je použita patentová ochrana. Patentově nelze chránit počítačové programy ale tzv. vynálezy uskutečňované počítačem.  
-Podmínky patentovatelnosti
+Podmínky patentovatelnosti:
   + Vynález neboli ne program, ale vynález realizovaný počítačem
   + Novost - vynález se považuje za nový, není-li součástí stavu techniky
   + Vynálezecká činnost
@@ -88,7 +88,7 @@ Shrnutí: nejvíce relavantními jsou nároky tvůrců AI a uživatelů - něco 
 
 Licenční smlouva je smlouva na jejíž základě poskytovatel, poskytuje oprávnění k užítí všech nebo jednotlivých způsobů užití. Nabyvatel se zavazuje, není-li sjednáno jinak, poskytnout odměnu. 
 Licenční smlouva nemusí být v písemné formě. Lze ji uzavřít například ústně. Musí být uzavřena písemně pouze v případech kdy je poskytována jako výhradní. Výhradní licence autor nesmí poskytnou licenci třetí osobě a je obvykle povinen nepoužívat SW, ke kterému licenci udělil. V případě nevýhradní licence může autor používat SW způsobem, k obsahu licence a poskytnout licence dalším osobám. 
-Elektronické uzavíraní"
+Elektronické uzavíraní:
 + Click-wrap
   + Potvrzení před prvním užitím
 + Shrink-wrap
@@ -106,9 +106,9 @@ Obsah licence:
   + Rozsah licence
   + Odměna za poskytnutí licence
   + Přiměřená dodatečná odměna
-  + Délka trvaní licence
+  + Délka trvání licence
 + Ostatní
-  + Právo podlicencovaní, či přeprodaní
+  + Právo podlicencovaní, či přeprodání
   + Odpovědnost za škodu a právní vady SW
   + Oprávnění k rozmnožovaní nebo úpravě SW
   + Nárok na upgrade SW
@@ -222,7 +222,7 @@ Vymáhat lze pomocí:
   + Trestněprávní - zde chceme potrestat a domáhat se náhrady škody - často předáno do občanskoprávního řízení
   + Ústavněprávní
   
-Obecně veřejneprávní chce potrestat osoby dle nějakých ustanovení na kterých jsme se dohodly (zákony).
+Obecně veřejněprávní chce potrestat osoby dle nějakých ustanovení na kterých jsme se dohodly (zákony).
 
 Soukromněprávní je dle AZ nebo průmyslová práva (patenty). Žaloba se podává na krajský soud dle bydliště žalovaného. Před zahájením sporu by se měli zjistit informace a podat předžalobní výzvu. Poté podáváme žalobu. Žaloba by neměla mít nejasný rozsah. Mělo by tam být udáno čeho chci dosáhnout v tzv. petitu. Lze se domoci předběžných opatření, které slouží aby nevznikalo další porušovaní práv v průběhu řízení. Vymáhání dle AZ je to ohrožovací delikt takže k zásahu ještě nemuselo dojít. Máme určité nároky jako:
 + Určení autorství - kdo je kdo
