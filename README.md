@@ -186,7 +186,7 @@ Lze měnit licence směrem od nejslabší po nejsilnější ale ne naopak. Dalš
 
 ### Definujte správce osobních údajů a popište jeho základní povinnosti dle GDPR. Jaký rozdíl mezi správcem a zpracovatelem osobních údajů?
 
-Správce stanovuje účel zpracovaní osobních údajů a po většinu chce zbírat osobní údaje neboli zbírá je za předem definovaným účelem. Lze mít více správců na jedny data ake jaždý odpovídá sám za sebe.\
+Správce stanovuje účel zpracovaní osobních údajů a po většinu chce zbírat osobní údaje neboli zbírá je za předem definovaným účelem. Lze mít více správců na jedny data aka každý odpovídá sám za sebe.\
 Zpracovatel je osoba/firma, která je najata správcem osobních údajů. Zpracovatel nemusí vždy existovat nebo může jich být více. Například je možné, že se osobní údaje nezpracovávají nebo si je správce zpracovává sám. Pokud zpracovatel začne rozhodovat o účelu dat sám tak se stává správcem.\
 Mezi těmito entitami musí při zpracovaní být vždy sepsána písemná smlouva.\
 Příklad máme firmu A která prodává zboží a bere si osobní údaje jako věk. Tato firma A se stává správcem. Firma A si řekně že chce zpracovat v jakém věku zákazníci nejčastěji nakupují určité položky. Firma to zadá nějaké firmě B nebo osobě, aby jí to zpracovala. Firma B se tím pádem stává zpracovatelem těchto osobních údajů.\
