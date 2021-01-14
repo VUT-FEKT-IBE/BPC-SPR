@@ -72,7 +72,7 @@ Autorem databáze může být pouze FO nebo skupina takových osob, ale také po
 Ochrana zvláštním právem pořizovatele databáze. Pořizovatelem databáze je osoba, která na svou odpovědnost databázi pořídí nebo osoba, pro kterou z jejího podnětu učiní jiná osoba. Pořizovatel databáze má právo na vytěžování nebo zužitkovaní celého obsahu databáze nebo její kvalitativně nebo kvantitavní části a udělit oprávnění k tomuto i jiné osobě. Vytěžovaním se rozumí trvalé přenesení jejího obsahu na jiný nosič. Na elektro databáze se nevztahuje vyjímka pro osobní použití. Co se týká vytěžení jen části datábáze záleží jestli se jedná o podstatnou nebo nepodstatnou část. Jelikož nepodstatnou část lze vytěžit a zužitkovat jak dle směrnice tak i dle autorského zákona.
 
 SDEU si vykládá, že i zásádní údaje, při posuzovaní zda se jedná o vytěžovaní podstatné či nepodstatné části aktuální hodnota údajů není relevantní. Rozhodné je jaké finanční prostředky či úsilí bylo vloženo do pořízení, ověření nebo převeden obsahu této části a nikoliv jaká je cenová hodnota těchto dat v době jejich vytěžení či zužitkování.
-Také vyjádřil že co nepředstavuje podstatnou část tak představuje podstatnou. Platí to do chvýle než je databáze vytěžována systematicky.
+Také vyjádřil že co nepředstavuje podstatnou část tak představuje podstatnou. Platí to do chvíle než je databáze vytěžována systematicky.
 
 ### Může být počítačový program autorem počítačového programu? Jak se aktuálně právo staví k výtvorům umělé inteligence?
 
