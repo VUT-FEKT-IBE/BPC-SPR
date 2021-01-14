@@ -26,7 +26,7 @@ Zaměstnanecké dílo (autorský zákon §58) - jestliže zaměstnanec vytvoří
   + Uvádět je na trh
   + Vše víše bez zvláštního souhlasu zaměstnance
  
-Spoluautorské dílo (autorský zákon §8) je dílo na kterém se podílí více autorů, kdy všem zúčastněným autorům připadá stejné právo. O nakladaní s dílem musí být roshodnuto jednomyslně. O spoluautorské dílo se jedná pokud jedtlivé části nejsou způsobilé samostatného užití, jedna část potřebuje druhou. Z právních úkonů jsou také vázani společně a nerozdílně.\
+Spoluautorské dílo (autorský zákon §8) je dílo na kterém se podílí více autorů, kdy všem zúčastněným autorům připadá stejné právo. O nakladaní s dílem musí být rozhodnuto jednomyslně. O spoluautorské dílo se jedná pokud jedtlivé části nejsou způsobilé samostatného užití, jedna část potřebuje druhou. Z právních úkonů jsou také vázani společně a nerozdílně.\
 Kolektivní dílo (autorský zákon §59) je dílo, na kterém se podílí více autorů a je vytvřeno z podnětu a pod vedením FO/PO a uváděno na veřejnost pod jejím jménem. Považují se často za zaměstnanecká díla.
 
 ### Jaké jsou zákonné a judikatorní podmínky pro dovolené reverzní inženýrství software?
