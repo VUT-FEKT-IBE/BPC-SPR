@@ -173,7 +173,7 @@ Obecně se lze domáhat buď opravit chyby pokuď je to možné nebo přiměřen
 
 ### Co je podstatou softwarových veřejných licencí a jak tyto fungují po právní stránce? Kdy zvolíte jakou veřejnou softwarovou licenci a proč?
 
-Veřejná licence je specifickým způsobem sjednaná licenční smlouva. SW licencovaný pod veřejnou licencý je vetšinou poskytován bez úplaty. Tímto způsobem se lze zbavit odpovědnosti za chyby v programu, které nezpůsobují právní vady. Obsahuje podmínku uvedení autora. 
+Veřejná licence je specifickým způsobem sjednaná licenční smlouva. SW licencovaný pod veřejnou licencí je vetšinou poskytován bez úplaty. Tímto způsobem se lze zbavit odpovědnosti za chyby v programu, které nezpůsobují právní vady. Obsahuje podmínku uvedení autora. 
 
 Podstatou veřejné licence je zveřejnění díla s licenčními podmínkami, odkazem na ně. Kde nabyvatel licecne není v přímém kontaktu s poskytovatelem. A využívá se hlavně v situaci kdy licenci chceme směřovat na neurčitý počet osob.
 "Veřejné licence jsou veřejné návrhy k uzavření licenčních smluv, jejichž obsah je standardizován a vymezen odkazem na veřejně známe a dostupné licenční podmíny a určen neurčitému počtu osob."
