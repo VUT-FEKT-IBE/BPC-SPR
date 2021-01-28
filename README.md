@@ -240,7 +240,7 @@ Trestněprávní rovina - mělo by to být poslední řešení ne přeskakovat p
 
 __________________________________________________________________________________________________________________________________________
 
-Odpovědi a otázky jsou použity pro studíjní účely\
+Odpovědi a otázky jsou použity pro studíjní účely
 Zdroje:
 + Právo informačních technologií ISBN 978-80-7598-045-8
 + BP [Limity autorskoprávní ochrany počítačových programů](https://is.muni.cz/th/p7o93/DP_final.pdf)
