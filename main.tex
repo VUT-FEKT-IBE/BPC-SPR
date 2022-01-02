@@ -1,0 +1,37 @@
+% Povinný argument: Kód předmětu
+\newcommand{\subject}{BPC-SPR}
+% Povinný argument: Název předmětu
+\newcommand{\subjectname}{Softwarové právo}
+% Povinný argument: Seznam autorů
+\newcommand{\authors}{jedla97}
+% Povinný argument: Seznam korektorů
+\newcommand{\corrections}{czechbol}
+% Nepovinný argument: Popis dokumentu
+\newcommand{\docdesc}{Otázky ke~zkoušce}
+% Nepovinný argument: Cílová skupina dokumentu
+\newcommand{\docgroup}{Informační bezpečnost, FEKT VUT}
+% Nepovinný argument: URL repozitáře nebo jiný odkaz na dokument
+\newcommand{\docurl}{https://github.com/VUT-FEKT-IBE/BPC-SPR}
+
+% Přepsáním argumentu na 'false' vypnete balíček 'minted' pro sázení kódu.
+% Pro jeho použití lokálně musíte mít v systému dostupný Python 3, python
+% knihovnu 'minted' a PDFLaTeX musíte spouštět s argumentem '-shell-escape'.
+% Místo něj můžete použít prostředí 'lstlisting'.
+\newcommand{\docminted}{true}
+
+\input{shared}
+
+\begin{document}
+
+\titulka{}
+
+\tableofcontents
+\thispagestyle{empty}
+
+\setcounter{page}{0}
+
+\include{text/text}
+
+\include{text/zdroje}
+
+\end{document}
